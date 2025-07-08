@@ -1,0 +1,39 @@
+:: dialogue
+Dialog podczas gry na planszy. Podoba się?
+
+- [[tak|dialogue-yes]]
+- [[nie|dialogue-no]]
+
+
+:: dialogue-no
+Nie bardzo, straszna bieda.
+
+
+:: dialogue-yes
+Bardzo, świetny pomysł.
+
+
+:: lost
+Przegrałeś...
+
+
+:: start-test
+<%
+	s.player.currentChallenge = new GoGame.Challenge(
+            // name = 'test',
+            name = 'capturing01',
+            title = 'Łapanie I',
+            description = 'Złap białe kamienie w jednym ruchu',
+            autoResponse = true,
+            strictPlay = false,
+            reviewMode = false,
+            wonPassage = 'won',
+            lostPassage = 'lost',
+        );
+%>
+
+[[Zagraj na planszy|board]]
+
+
+:: won
+Wygrałeś!
