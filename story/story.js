@@ -55,7 +55,10 @@ s.puzzleSets = {
   "skill": "ladder"
 }]GB[1]))`,
     ],
-    capturing01: [
+    capturing01intro: [
+        '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-07-09]AW[df][ef]AB[ee][de][cf][dg][eg]C[{"dialogue":"i1w7w9rfqFUoGh4wyNc1kd"}];B[ff]C[{"dialogue":"h8wPdxCSczo2LLuBhW8Mg3"}])',
+    ],
+    capturing01puzzles: [
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]AB[dg][eg][cf][de][ee]AW[df][ef];B[ff])',
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]AB[ci][dh][fi]AW[di][ei];B[eh])',
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]AE[bg]AB[cf][de][ee][fe][dg][eg][fg]AW[df][ef][ff];B[gf])',
@@ -67,7 +70,10 @@ s.puzzleSets = {
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]PL[B]AB[cf][ce][cd][dc][ed][ef][dg]AW[ee][de][dd][df];B[fe])',
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]PL[B]AB[cf][de][ed][fd][ff][eg][dg]AW[df][ef][ee][fe];B[ge])'
     ],
-    saving01: [
+    saving01intro: [
+        '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-07-10]AB[df][ef]AW[ee][de][cf][dg][eg]C[{"dialogue":"vcvM9FhvzBa6qk8jH8mbit"}](;B[fg];W[ff]C[{"dialogue":"wYgFJBk1K4EPy3FN7rAz3y", "failed":true}])(;B[ff]C[{"dialogue":"bQibLUeND8DLdz4J7hWMFB"}]))'
+    ],
+    saving01puzzles: [
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]AW[cf][de][ee][dg][eg]AB[df][ef]PL[B];B[ff])',
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]PL[B]AW[cf][ce][dd][ed][ef][dg]AB[df][de][ee];B[fe])',
         '(;GM[1]FF[4]CA[UTF-8]AP[Sabaki:0.52.2]KM[6.5]SZ[9]DT[2025-05-28]PL[B]AW[ci][ch][ei][eh]AB[di][dh];B[dg])',

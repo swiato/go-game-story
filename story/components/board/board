@@ -16,7 +16,7 @@
     <script>
         // simulate getting challenge from previous passage
         s.player.currentChallenge = new Challenge(
-            name = 'test',
+            name = 'capturing01intro',
             // name = 'capturing01',
             title = 'Łapanie I',
             description = 'Złap białe kamienie jednym ruchem',
