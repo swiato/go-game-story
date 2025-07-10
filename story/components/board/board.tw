@@ -1,4 +1,4 @@
-:: board
+:: components/board
 <div class="hbox">
     <div id="board" class="solid"></div>
     <div class="vbox">
