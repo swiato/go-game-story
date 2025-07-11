@@ -587,6 +587,8 @@ Pani Yukari
 
 
 :: gvEPAy59jdRRjeZdeiKJcH
+Pani Yukari
+
 Widzisz jak kamienie są ułożone na planszy? Czarne kamienie niemal całkowicie otoczyły białe. Białe są w atari - to znaczy, że został im ostatni oddech. Wykorzystaj to. Zabierz białym ostatni oddech to zostaną twoimi jeńcami.
 
 
@@ -694,4 +696,171 @@ Coś poszło nie tak? Nie poddawaj się, spróbuj jeszcze raz.
 :: oV3AJ1tBr4kzqn7rMLGFre
 Pani Yukari
 
-Umiesz już chwytać i ratować kamienie. Na początek powinno wystarczyć. Grajmy już, bo zaczynam się nudzić!
+Umiesz już łapać i ratować kamienie. Na początek powinno wystarczyć. Grajmy już, bo zaczynam się nudzić!
+<%
+	s.player.currentChallenge = new GoGame.Challenge(
+            name = 'atarigo01',
+            title = 'Atari Go',
+            description = 'Złap kamień przeciwnika, żeby wygrać.',
+            autoResponse = true,
+            strictPlay = true,
+            reviewMode = false,
+            wonPassage = '',
+            lostPassage = '',
+        );
+%>
+[[>>|components/board]]
+
+
+:: uRNMgWqiAHs4c6r9nrUMTU
+Pani Yukari
+
+Dla ułatwienia zaczniemy od takiego ustawienia. Dzięki temu gra będzie szybsza.
+[[>>|wPwBhhSwruvWhiRMTn1vDf]]
+
+
+:: wPwBhhSwruvWhiRMTn1vDf
+Pani Yukari
+
+Ruchy wykonujemy na zmianę.
+[[>>|cHrpMrNPAqPzmhwuHb5AVW]]
+
+
+:: cHrpMrNPAqPzmhwuHb5AVW
+Strategia turowa? Jestem całkiem niezły w Heroesy, powinienem dać radę.
+[[>>|3WaCWFqVeX2iED9sjVGwg5]]
+
+
+:: 3WaCWFqVeX2iED9sjVGwg5
+Pani Yukari
+
+Kamień postawiony na planszy nie może się ruszyć i zostaje na niej do końca gry. Chyba, że zostanie schwytany - tak jak ćwiczyliśmy.
+[[>>|iRhdVUaGw7xrs7yVTJHpZy]]
+
+
+:: iRhdVUaGw7xrs7yVTJHpZy
+Pani Yukari
+
+Gramy do pierwszego schwytanego kamienia. Złapiesz mój kamień - wygrywasz.
+[[>>|mPrmAWhVtjZitNvTXS6cMg]]
+
+
+:: mPrmAWhVtjZitNvTXS6cMg
+Pani Yukari
+
+Ja złapię twój - przegrywasz... i zaczynamy grę od nowa.
+[[>>|onXcxpGmEjeUzkQqggoQ63]]
+
+
+:: onXcxpGmEjeUzkQqggoQ63
+Permadeath?! Jak w roguelike'ach? Brzmi nieźle.
+[[>>|eLpudgcD2GJJ7EqQH8XcFJ]]
+
+
+:: eLpudgcD2GJJ7EqQH8XcFJ
+Pani Yukari
+
+Ty zaczynasz. Grasz czarnymi.
+
+:: tV3M9xoKJLMognpFi9Nef5
+Pani Yukari
+
+<%
+GoGame.Utils.visit('tV3M9xoKJLMognpFi9Nef5');
+%>
+
+<% if(GoGame.Utils.visited('tV3M9xoKJLMognpFi9Nef5') == 1) { %>
+Zanim spróbujesz mnie atakować, najpierw zadbaj o swoje bezpieczeństwo.
+<% } else { %>
+Serio? Tak trudno zauważyć atari?
+<%
+}
+%>
+
+
+:: cnRiiavpSSXhVnt9AAhKze
+Pani Yukari
+
+Tu jest punkt kluczowy!
+
+
+:: rzPbYaqoEMeMqT7Kyi6jEQ
+Pani Yukari
+
+Umiesz drabinkę? Zaimponowałeś mi! Wiesz jak zaimponować kobiecie.
+
+
+:: gNn38eethP4KSnH2FivaYB
+Pani Yukari
+
+Niestety, drabinka to nie jest złoty środek. Czasem się nie udaje. Znasz historię o nowym młotku?
+
+
+:: 2AvLLTr8dHXNeh6WAhr68Z
+Pani Yukari
+
+Ta technika nazywa się Oiotoshi - przygwożdżenie. Nie da się z niej uciec. Jesteś w atari, z którego uciekasz, tylko po to, żeby się przekonać, że znów jesteś w atari. I tym razem, już nie możesz uciec.
+
+
+:: dFzS2QPF4riiDHM6MLujo6
+Pani Yukari
+
+Dałeś się zepchnąć na krawędź. To jedna z technik, w której spycha się przeciwnika na krawędź planszy, skąd nie ma ucieczki.
+
+
+:: 4HzawPwmSbe19rG8e4jzcz
+Pani Yukari
+
+Nie ratuj czegoś, co już jest martwe. Czasem zwyczajnie nie da się uciec i nie ma sensu dokładać przeciwnikowi kamieni.
+
+
+:: fQsQZScy6m6wv5rQwy2Kch
+Pani Yukari
+
+Przyparłeś mnie do muru? Jak śmiesz używać moich zaklęć przeciwko mnie? Udało ci się zepchnąć mnie do krawędzi.
+
+
+:: amKtKc9ercMjiP15rmXJC5
+Pani Yukari
+
+Wpadłam w self atari?! Nie wierzę, że wpadłam w coś takiego?! To się nazywa yachung - sama zabrałam sobie oddech i wpadłam w automatyczne atari.
+
+
+:: g5QiEbZewWCQiUXf1MPs6v
+Pani Yukari
+
+Wpadłeś w podwójne atari. Możesz uciec tylko z jednego atari, nie ma znaczenia którego i tak jesteś już martwy.
+
+
+:: 883Gm5JtqtCzKQoMXtbmFB
+Pani Yukari
+
+Tak, zbicie w samobójcze miejsce jest jak najbardziej ok. Jeśli podczas zbijania odzyskasz oddech - wszystko jest gites.
+
+
+:: qXHoaCyZnD9Xagztmp8LeR
+Pani Yukari
+
+Udało ci się wykonać podwójne atari? Nieźle.
+
+:: tFhCvmwuPuDK3BFwcqYMbW
+Pani Yukari
+
+Udało ci się wykonać siatkę? Nieźle.
+
+
+:: maNqtcAVjDEwxHKgREkcTk
+Pani Yukari
+
+Ta technika nazywa się podwójne atari - nie da się z niej uciec.
+
+:: 8DkfLDG73b1cenKjmuerim
+Pani Yukari
+
+Ta technika nazywa się drabinka.
+
+
+:: h3eBpsdNoxV7PxVgrw1sCn
+Pani Yukari
+
+Ta technika nazywa się siatka. Nie uciekniesz z niej.
