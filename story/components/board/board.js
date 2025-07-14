@@ -409,6 +409,10 @@ class PuzzleController extends EventTarget {
     }
 
     showHint() {
+        if (this.board.player != this.player) {
+            return;
+        }
+
         const validMoves = this.#getValidMoves(this.board.player);
         this.board.showHint(validMoves);
     }
@@ -547,12 +551,14 @@ class PuzzleController extends EventTarget {
         const randomIndex = Math.floor(Math.random() * validMoves.length);
         const move = validMoves[randomIndex];
 
-        this.#emitWaitingEvent();
         this.board.disable(true);
+        this.board.setStrictPlay(false);
+        this.#emitWaitingEvent();
 
         setTimeout(() => {
             this.board.disable(false);
             this.board.playMove(move);
+            this.board.setStrictPlay(this.challenge.strictPlay);
         }, 500);
     }
 
