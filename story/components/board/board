@@ -26,7 +26,8 @@
             wonPassage = 'successPassage',
             lostPassage = 'failurePassage',
         );
-    </script>
+        </script>
+    <link rel="stylesheet" href="../../story.css">
     <link rel="stylesheet" href="board.css">
 </head>
 

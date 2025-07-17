@@ -1,0 +1,96 @@
+class Dialogue {
+    startDialogue(passageName) {
+        const dialogueHtml = window.story.passage('components.dialogue').render();
+        const passage = document.getElementsByTagName('tw-passage')[0];
+        passage.innerHTML += dialogueHtml;
+
+        console.log(passage);
+
+        this.#renderDialogue(passageName);
+    }
+
+    // static handleInput(ev) {
+    //     console.log(ev);
+    //     if (ev.code === 'Enter' || ev.code === 'Space') {
+    //         if (Utils.target) {
+    //             Utils.showDialogue('dialogue-box', Utils.target);
+    //         }
+    //     }
+    // }
+
+    #renderDialogue(passageName) {
+        const html = window.story.passage(passageName).render();
+        const dialogueText = document.getElementById('dialogue-text');
+        const choiceBox = document.getElementById('choice-box');
+        const dialogueBox = document.getElementById('dialogue-box');
+        const dialogueNext = document.getElementById('dialogue-next');
+        dialogueText.innerHTML = html;
+        const links = [...dialogueBox.querySelectorAll('a')];
+
+        if (links.length == 0) {
+            dialogueBox.onclick = () => dialogueBox.remove();
+        } else if (links.length == 1) {
+            const link = links[0];
+            const target = link.getAttribute('data-passage');
+            if (!target) {
+                return;
+            }
+            link.remove();
+
+            dialogueBox.onclick = () => {
+                const tags = window.story.passage(target).tags;
+
+                if (tags.includes('dialogue')) {
+                    this.#renderDialogue(target);
+                } else {
+                    window.story.show(target);
+                }
+            };
+        } else {
+            const choices = links.map(link => {
+                const target = link.getAttribute('data-passage');
+
+                const choiceButton = document.createElement('div');
+                choiceButton.className = 'choice-button';
+                choiceButton.textContent = link.textContent;
+                choiceButton.onclick = () => {
+                    const tags = window.story.passage(target).tags;
+
+                    if (tags.includes('dialogue')) {
+                        this.#renderDialogue(target);
+                    } else {
+                        window.story.show(target);
+                    }
+
+                    choiceBox.innerHTML = '';
+                    dialogueNext.classList.remove('hidden');
+                };
+
+                link.remove();
+
+                return choiceButton;
+            });
+
+            dialogueBox.onclick = () => {
+                dialogueBox.onclick = () => { };
+                choices.forEach(choice => choiceBox.appendChild(choice));
+                dialogueNext.classList.add('hidden');
+            };
+        }
+    }
+
+    #visit(passageId) {
+        const passage = window.story.passage(passageId);
+
+        if (!passage.visited) {
+            passage.visited = 1;
+        } else {
+            passage.visited++;
+        }
+    }
+
+    #visited(passageId) {
+        const passage = window.story.passage(passageId);
+        return passage.visited;
+    }
+}

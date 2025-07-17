@@ -1,3 +1,18 @@
+class Character {
+    constructor(name, style) {
+        this.name = name;
+        this.style = style;
+    }
+
+    static unknown = new Character('???');
+    static yukari = new Character('Pani Yukari', 'yukari-color');
+    static igor = new Character('Igor', 'igor-color');
+
+    toString() {
+        return `<div id="dialogue-name" class="${this.style}">${this.name}</div>`;
+    }
+}
+
 class Utils {
     static renderPassage(elementId, passageName) {
         if (!window.story.passage) {
@@ -117,12 +132,18 @@ window.GoGame = GoGame;
 
 GoGame.Challenge = Challenge;
 GoGame.Utils = Utils;
+GoGame.Character = Character;
 
-GoGame.startChallenge = function (document) {
+GoGame.startChallenge = (document) => {
     const board = new Board();
     const challenge = s.player.currentChallenge;
     const puzzles = s.puzzleSets[challenge.name];
     const puzzleController = new PuzzleController(board, s.player, puzzles);
 
     new ChallengeController(document, puzzleController);
-}
+};
+
+GoGame.startDialogue = (passageName) => {
+    const dialogue = new Dialogue();
+    dialogue.startDialogue(passageName);
+};

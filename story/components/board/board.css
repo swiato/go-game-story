@@ -10,10 +10,6 @@
     color: red;
 }
 
-.hidden {
-    display: none;
-}
-
 .vbox {
     display: flex;
     flex-direction: column;

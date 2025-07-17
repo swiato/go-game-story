@@ -1,0 +1,42 @@
+:: scene01
+Witaj w mojej scenie. Może powiem nieco więcej, żeby było widać jaka jest szerokość strony. A może się okazać, że jest za mała... No nic, zobaczymy.
+
+<script>
+    GoGame.startDialogue('dialogue01');
+</script>
+
+:: dialogue01[dialogue]
+<%= GoGame.Character.yukari %>
+Siemanko! Jak się dziś macie?
+
+[[>>|dialogue02]]
+
+
+:: dialogue02[dialogue]
+<%= GoGame.Character.igor %>
+A tu proszę, drugi tekst.
+
+[[>>|dialogue03]]
+
+
+:: dialogue03[dialogue]
+<%= GoGame.Character.unknown %>
+I jeszcze jeden. Witaj w mojej scenie. Może powiem nieco więcej, żeby było widać jaka jest szerokość strony. A może się okazać, że jest za mała… No nic, zobaczymy.
+
+[[>>|dialogue04]]
+
+
+:: dialogue04[dialogue]
+Tu mówi narrator.
+
+[[Wyjdź z dialogu i przejdź do normalności|dialogue05]]
+
+[[Pozostań w dialogu|dialogue06]]
+
+
+:: dialogue05
+Tutaj już normalny tekst proszę, a nie jakieś tam dialogi!
+
+
+:: dialogue06[dialogue]
+Tutaj nadal normalny dialog.
