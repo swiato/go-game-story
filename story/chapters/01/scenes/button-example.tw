@@ -40,3 +40,11 @@ Tutaj już normalny tekst proszę, a nie jakieś tam dialogi!
 
 :: dialogue06[dialogue]
 Tutaj nadal normalny dialog.
+
+[[Wróć do początku rozmowy|dialogue01]]
+
+[[Przejdź do końca rozmowy|dialogue07]]
+
+
+:: dialogue07[dialogue]
+No to pogadali. Trzymajta się tam!
