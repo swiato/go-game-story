@@ -140,7 +140,7 @@ GoGame.startBoard = (document) => {
     const puzzles = s.puzzleSets[challenge.name];
     const puzzleController = new PuzzleController(board, s.player, puzzles);
 
-    new ChallengeController(document, puzzleController);
+    new BoardController(document, puzzleController);
 };
 
 GoGame.startDialogue = (passageName) => {

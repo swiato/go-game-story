@@ -1,3 +1,13 @@
+:: 2kWRaRgaSYZCD9fbTWXuKs[scene]
+<script>
+    if(window.story.state.player.nextDialogue) {
+        GoGame.startDialogue(window.story.state.player.nextDialogue);
+    } else {
+        GoGame.startDialogue('tnHQJwS2FbAXKXhwLkjcvf');
+    }
+</script>
+
+
 :: tnHQJwS2FbAXKXhwLkjcvf[dialogue]
 Pani Yukari
 
@@ -14,7 +24,7 @@ Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
             lostPassage = '',
         );
 %>
-[[>>|components/board]]
+[[>>|components.board]]
 
 
 :: i1w7w9rfqFUoGh4wyNc1kd[dialogue]
@@ -85,7 +95,7 @@ Twoja kolej. Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
             lostPassage = 'iQ1KhucHFrrFk6PPKUbVkw',
         );
 %>
-[[>>|components/board]]
+[[>>|components.board]]
 
 
 :: iQ1KhucHFrrFk6PPKUbVkw[dialogue]
@@ -118,7 +128,7 @@ Co gdyby to twoje kamienie były otoczone? Umiałbyś uratować je przed schwyta
             lostPassage = '',
         );
 %>
-[[>>|components/board]]
+[[>>|components.board]]
 
 
 :: vcvM9FhvzBa6qk8jH8mbit[dialogue]
@@ -155,7 +165,7 @@ Spróbuj sam uratować czarne kamienie.
             lostPassage = 'sDsPJQfpWiEFpLf16Q9WWM',
         );
 %>
-[[>>|components/board]]
+[[>>|components.board]]
 
 
 :: sDsPJQfpWiEFpLf16Q9WWM[dialogue]
@@ -181,7 +191,7 @@ Umiesz już łapać i ratować kamienie. Na początek powinno wystarczyć. Grajm
             lostPassage = '',
         );
 %>
-[[>>|components/board]]
+[[>>|components.board]]
 
 
 :: uRNMgWqiAHs4c6r9nrUMTU[dialogue]

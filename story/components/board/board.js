@@ -213,7 +213,7 @@ class LostState extends State {
     }
 }
 
-class ChallengeController {
+class BoardController {
     constructor(context, puzzleController) {
         this.context = context;
         this.puzzleController = puzzleController;
