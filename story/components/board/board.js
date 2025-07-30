@@ -237,8 +237,6 @@ class ChallengeController {
         this.won = this.context.getElementById('won');
         this.lost = this.context.getElementById('lost');
         this.nextPassage = this.context.getElementById('next-passage');
-        this.overlay = this.context.getElementById('overlay');
-        this.dialogue = this.context.getElementById('dialogue');
 
         this.title = this.context.getElementById('title');
         this.description = this.context.getElementById('description');
@@ -289,24 +287,8 @@ class ChallengeController {
     };
 
     showDialogue(dialogue) {
-        this.overlay.addEventListener('click', this.hideDialogue);
-        this.show(this.overlay);
-        this.show(this.dialogue);
-        Utils.renderPassage('dialogue', dialogue);
+        GoGame.startDialogue(dialogue);
     }
-
-    hideDialogue = () => {
-        const links = this.dialogue.querySelectorAll('a');
-
-        if (links.length > 0) {
-            return;
-        }
-
-        this.overlay.removeEventListener('click', this.hideDialogue);
-        this.dialogue.innerHTML = '';
-        this.hide(this.overlay);
-        this.hide(this.dialogue);
-    };
 
     setProgress(value) {
         this.progress.innerText = `${value}/${this.puzzleController.puzzles.length}`;

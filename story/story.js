@@ -134,7 +134,7 @@ GoGame.Challenge = Challenge;
 GoGame.Utils = Utils;
 GoGame.Character = Character;
 
-GoGame.startChallenge = (document) => {
+GoGame.startBoard = (document) => {
     const board = new Board();
     const challenge = s.player.currentChallenge;
     const puzzles = s.puzzleSets[challenge.name];

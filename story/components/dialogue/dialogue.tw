@@ -1,8 +1,10 @@
 :: components.dialogue
-<div id="dialogue-container">
-    <div id="choice-box"></div>
-    <div id="dialogue-box">
-        <div id="dialogue-text"></div>
-        <div id="dialogue-next">▶</div>
+<div id="dialogue-overlay">
+    <div id="dialogue-container">
+        <div id="choice-box"></div>
+        <div id="dialogue-box">
+            <div id="dialogue-text"></div>
+            <div id="dialogue-next">▶</div>
+        </div>
     </div>
 </div>

@@ -2,10 +2,7 @@ class Dialogue {
     startDialogue(passageName) {
         const dialogueHtml = window.story.passage('components.dialogue').render();
         const passage = document.getElementsByTagName('tw-passage')[0];
-        passage.innerHTML += dialogueHtml;
-
-        console.log(passage);
-
+        passage.insertAdjacentHTML('beforeend', dialogueHtml);
         this.#renderDialogue(passageName);
     }
 
@@ -20,15 +17,16 @@ class Dialogue {
 
     #renderDialogue(passageName) {
         const html = window.story.passage(passageName).render();
+        const dialogueOverlay = document.getElementById('dialogue-overlay');
         const dialogueText = document.getElementById('dialogue-text');
         const choiceBox = document.getElementById('choice-box');
         const dialogueBox = document.getElementById('dialogue-box');
         const dialogueNext = document.getElementById('dialogue-next');
         dialogueText.innerHTML = html;
-        const links = [...dialogueBox.querySelectorAll('a')];
+        const links = [...dialogueText.querySelectorAll('a')];
 
         if (links.length == 0) {
-            dialogueBox.onclick = () => dialogueBox.remove();
+            dialogueBox.onclick = () => dialogueOverlay.remove();
         } else if (links.length == 1) {
             const link = links[0];
             const target = link.getAttribute('data-passage');

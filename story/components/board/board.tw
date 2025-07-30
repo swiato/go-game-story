@@ -49,9 +49,7 @@
         <input id="hint" type="checkbox" />
     </div>
 </div>
-<div id="overlay" class="overlay hidden"></div>
-<div id="dialogue" class="over-overlay hidden"></div>
 </div>
 <script>
-    GoGame.startChallenge(document);
+    GoGame.startBoard(document);
 </script>
