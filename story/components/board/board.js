@@ -310,12 +310,10 @@ class BoardController {
 
     showNextPassage() {
         this.show(this.nextPassage);
-        this.nextPassage.setAttribute('data-passage', s.player.nextDialogue);
     }
 
     hideNextPassage() {
         this.hide(this.nextPassage);
-        this.nextPassage.removeAttribute('data-passage');
     }
 
     showSkill(skill) {
@@ -565,13 +563,12 @@ class PuzzleController extends EventTarget {
 
     #handleFailure() {
         this.failed = true;
+        this.sanity--;
         this.#emitFailedEvent();
 
         if (this.challenge.reviewMode) {
             return;
         }
-
-        this.sanity--;
 
         if (this.sanity <= 0) {
             this.gameOver = true;

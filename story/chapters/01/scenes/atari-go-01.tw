@@ -8,8 +8,8 @@
 </script>
 
 
-:: tnHQJwS2FbAXKXhwLkjcvf[dialogue]
-Pani Yukari
+:: tnHQJwS2FbAXKXhwLkjcvf
+<%= GoGame.Character.yukari %>
 
 Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
 <%
@@ -27,60 +27,60 @@ Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
 [[>>|components.board]]
 
 
-:: i1w7w9rfqFUoGh4wyNc1kd[dialogue]
+:: i1w7w9rfqFUoGh4wyNc1kd
 To jakiś samouczek?! Złapałem laga... co miałem zrobić? Schwytać białe kamienie? Robi się!
 [[>>|78NDtg9PCHF6A5CyM4Mkeh]]
 
 
-:: 78NDtg9PCHF6A5CyM4Mkeh[dialogue]
-Igor
+:: 78NDtg9PCHF6A5CyM4Mkeh
+<%= GoGame.Character.igor %>
 
 Tylko... jak się chwyta kamienie?!
 [[>>|xu8FsECjE8MKjSbvm2Dyf6]]
 
 
-:: xu8FsECjE8MKjSbvm2Dyf6[dialogue]
-Pani Yukari
+:: xu8FsECjE8MKjSbvm2Dyf6
+<%= GoGame.Character.yukari %>
 
 Nie mówiłam, jak się łapie kamienie?
 [[>>|tv3U5N5Y5D7CZAmjeMzaBR]]
 
 
-:: tv3U5N5Y5D7CZAmjeMzaBR[dialogue]
-Pani Yukari
+:: tv3U5N5Y5D7CZAmjeMzaBR
+<%= GoGame.Character.yukari %>
 
 Nie?!
 [[>>|iis4EkFGDB8soSVodM5baP]]
 
 
-:: iis4EkFGDB8soSVodM5baP[dialogue]
-Pani Yukari
+:: iis4EkFGDB8soSVodM5baP
+<%= GoGame.Character.yukari %>
 
 Niemożliwe. Pewnie nie słuchałeś. Dobra, skup się. To twoja ostatnia szansa.
 [[>>|uXrzbfy5oDnwV4o138Y4ZG]]
 
 
-:: uXrzbfy5oDnwV4o138Y4ZG[dialogue]
-Pani Yukari
+:: uXrzbfy5oDnwV4o138Y4ZG
+<%= GoGame.Character.yukari %>
 
 Żeby schwytać kamienie przeciwnika, wystarczy zablokować im wszystkie drogi ucieczki - tzw. oddechy.
 [[>>|gvEPAy59jdRRjeZdeiKJcH]]
 
 
-:: gvEPAy59jdRRjeZdeiKJcH[dialogue]
-Pani Yukari
+:: gvEPAy59jdRRjeZdeiKJcH
+<%= GoGame.Character.yukari %>
 
 Widzisz jak kamienie są ułożone na planszy? Czarne kamienie niemal całkowicie otoczyły białe. Białe są w atari - to znaczy, że został im ostatni oddech. Wykorzystaj to. Zabierz białym ostatni oddech to zostaną twoimi jeńcami.
 
 
-:: h8wPdxCSczo2LLuBhW8Mg3[dialogue]
-Pani Yukari
+:: h8wPdxCSczo2LLuBhW8Mg3
+<%= GoGame.Character.yukari %>
 
 Świetna robota. Kiedy otoczysz kamienie przeciwnika, zdejmujesz je z planszy i zabierasz jako swoich jeńców.
 
 
-:: e6MT5zLVKth5eWm989oQev[dialogue]
-Pani Yukari
+:: e6MT5zLVKth5eWm989oQev
+<%= GoGame.Character.yukari %>
 
 Twoja kolej. Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
 <%
@@ -98,22 +98,22 @@ Twoja kolej. Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
 [[>>|components.board]]
 
 
-:: iQ1KhucHFrrFk6PPKUbVkw[dialogue]
-Pani Yukari
+:: iQ1KhucHFrrFk6PPKUbVkw
+<%= GoGame.Character.yukari %>
 
 Instrukcje były niejasne? Nie licz na mnie, będziesz musiał to rozgryźć sam.
 [[>>|tnHQJwS2FbAXKXhwLkjcvf]]
 
 
-:: gqvnWBeWG4KmSkRuZ9RhiW[dialogue]
-Pani Yukari
+:: gqvnWBeWG4KmSkRuZ9RhiW
+<%= GoGame.Character.yukari %>
 
 Jednak coś niecoś potrafisz. Pamiętaj, że przeciwnik też będzie próbował złapać twoje kamienie.
 [[>>|uN5e2kppLonZF4HD5byvoe]]
 
 
-:: uN5e2kppLonZF4HD5byvoe[dialogue]
-Pani Yukari
+:: uN5e2kppLonZF4HD5byvoe
+<%= GoGame.Character.yukari %>
 
 Co gdyby to twoje kamienie były otoczone? Umiałbyś uratować je przed schwytaniem?
 <%
@@ -131,26 +131,26 @@ Co gdyby to twoje kamienie były otoczone? Umiałbyś uratować je przed schwyta
 [[>>|components.board]]
 
 
-:: vcvM9FhvzBa6qk8jH8mbit[dialogue]
-Pani Yukari
+:: vcvM9FhvzBa6qk8jH8mbit
+<%= GoGame.Character.yukari %>
 
 Grasz czarnymi. Twoje kamienie są w atari - został im ostatni oddech. Gdzie zagrasz, żeby je uratować?
 
 
-:: wYgFJBk1K4EPy3FN7rAz3y[dialogue]
-Pani Yukari
+:: wYgFJBk1K4EPy3FN7rAz3y
+<%= GoGame.Character.yukari %>
 
 Jeśli zagrasz tutaj, przeciwnik schwyta twoje kamienie. Żeby je ocalić, spróbuj zwiększyć ilość oddechów czarnych kamieni.
 
 
-:: bQibLUeND8DLdz4J7hWMFB[dialogue]
-Pani Yukari
+:: bQibLUeND8DLdz4J7hWMFB
+<%= GoGame.Character.yukari %>
 
 Wydłużenie się zwiększyło ilość oddechów twoich kamieni. Póki co, są bezpieczne.
 
 
-:: ujehaLURPWELN5k6edavCa[dialogue]
-Pani Yukari
+:: ujehaLURPWELN5k6edavCa
+<%= GoGame.Character.yukari %>
 
 Spróbuj sam uratować czarne kamienie.
 <%
@@ -168,15 +168,15 @@ Spróbuj sam uratować czarne kamienie.
 [[>>|components.board]]
 
 
-:: sDsPJQfpWiEFpLf16Q9WWM[dialogue]
-Pani Yukari
+:: sDsPJQfpWiEFpLf16Q9WWM
+<%= GoGame.Character.yukari %>
 
 Coś poszło nie tak? Nie poddawaj się, spróbuj jeszcze raz.
 [[>>|uN5e2kppLonZF4HD5byvoe]]
 
 
-:: oV3AJ1tBr4kzqn7rMLGFre[dialogue]
-Pani Yukari
+:: oV3AJ1tBr4kzqn7rMLGFre
+<%= GoGame.Character.yukari %>
 
 Umiesz już łapać i ratować kamienie. Na początek powinno wystarczyć. Grajmy już, bo zaczynam się nudzić!
 <%
@@ -194,115 +194,115 @@ Umiesz już łapać i ratować kamienie. Na początek powinno wystarczyć. Grajm
 [[>>|components.board]]
 
 
-:: uRNMgWqiAHs4c6r9nrUMTU[dialogue]
-Pani Yukari
+:: uRNMgWqiAHs4c6r9nrUMTU
+<%= GoGame.Character.yukari %>
 
 Dla ułatwienia zaczniemy od takiego ustawienia. Dzięki temu gra będzie szybsza.
 [[>>|wPwBhhSwruvWhiRMTn1vDf]]
 
 
-:: wPwBhhSwruvWhiRMTn1vDf[dialogue]
-Pani Yukari
+:: wPwBhhSwruvWhiRMTn1vDf
+<%= GoGame.Character.yukari %>
 
 Ruchy wykonujemy na zmianę.
 [[>>|cHrpMrNPAqPzmhwuHb5AVW]]
 
 
-:: cHrpMrNPAqPzmhwuHb5AVW[dialogue]
+:: cHrpMrNPAqPzmhwuHb5AVW
 Strategia turowa? Jestem całkiem niezły w Heroesy, powinienem dać radę.
 [[>>|3WaCWFqVeX2iED9sjVGwg5]]
 
 
-:: 3WaCWFqVeX2iED9sjVGwg5[dialogue]
-Pani Yukari
+:: 3WaCWFqVeX2iED9sjVGwg5
+<%= GoGame.Character.yukari %>
 
 Kamień postawiony na planszy nie może się ruszyć i zostaje na niej do końca gry. Chyba, że zostanie schwytany - tak jak ćwiczyliśmy.
 [[>>|iRhdVUaGw7xrs7yVTJHpZy]]
 
 
-:: iRhdVUaGw7xrs7yVTJHpZy[dialogue]
-Pani Yukari
+:: iRhdVUaGw7xrs7yVTJHpZy
+<%= GoGame.Character.yukari %>
 
 Gramy do pierwszego schwytanego kamienia. Złapiesz mój kamień - wygrywasz.
 [[>>|mPrmAWhVtjZitNvTXS6cMg]]
 
 
-:: mPrmAWhVtjZitNvTXS6cMg[dialogue]
-Pani Yukari
+:: mPrmAWhVtjZitNvTXS6cMg
+<%= GoGame.Character.yukari %>
 
 Ja złapię twój - przegrywasz... i zaczynamy grę od nowa.
 [[>>|onXcxpGmEjeUzkQqggoQ63]]
 
 
-:: onXcxpGmEjeUzkQqggoQ63[dialogue]
+:: onXcxpGmEjeUzkQqggoQ63
 Permadeath?! Jak w roguelike'ach? Brzmi nieźle.
 [[>>|eLpudgcD2GJJ7EqQH8XcFJ]]
 
 
-:: eLpudgcD2GJJ7EqQH8XcFJ[dialogue]
-Pani Yukari
+:: eLpudgcD2GJJ7EqQH8XcFJ
+<%= GoGame.Character.yukari %>
 
 Ty zaczynasz. Grasz czarnymi.
 
 
 :: acPqWveEDkryAwo6g4ojPd[dialogue white capturing-02 0]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Zwykle granie w self atari nie ma sensu, ale jeśli tym ruchem wygrywam grę, to czemu nie?
 
 
 :: 883Gm5JtqtCzKQoMXtbmFB[dialogue white capturing-03 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Tak mogę tu zbić. Zbicie w samobójcze miejsce jest jak najbardziej ok. Jeśli podczas zbijania odzyskasz oddech - wszystko jest gites.
 [[>>|cwyJcvaPZ9N7CnU1ZpK3T4]]
 
 
-:: cwyJcvaPZ9N7CnU1ZpK3T4[dialogue]
-Igor
+:: cwyJcvaPZ9N7CnU1ZpK3T4
+<%= GoGame.Character.igor %>
 
 Czy pani wymyśla te zasady na poczekaniu?
 
 
 :: amKtKc9ercMjiP15rmXJC5[dialogue white self-atari 1]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Wpadłam w self atari?! Nie wierzę, że wpadłam w coś takiego?! Wpadłam w automatyczne atari.
 
 
 :: tNm2XfCrdwC6nU66cun2FW[dialogue white atari-while-cutting]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Można też wykorzystać cięcie, żeby zrobić atari, z którego nie da się uciec.
 
 
 :: 79zWnztYzJ4LtkAtUPfgE4[dialogue white both-sides-atari]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Kiedy oboje jesteśmy w atari nie próbuj uciekać, lepiej zbij od razu.
 
 
 :: g5QiEbZewWCQiUXf1MPs6v[dialogue white double-atari 6]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Wpadłeś w podwójne atari. Możesz uciec tylko z jednego atari, nie ma znaczenia którego i tak jesteś już martwy.
 Ta technika nazywa się podwójne atari - nie da się z niej uciec.
 
 
 :: 8DkfLDG73b1cenKjmuerim[dialogue white ladder 6]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Ta technika nazywa się drabinka.
 
 
 :: h3eBpsdNoxV7PxVgrw1sCn[dialogue white net 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Ta technika nazywa się siatka. Nie uciekniesz z niej.
 
 
 :: dFzS2QPF4riiDHM6MLujo6[dialogue white atari-to-endline 28]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Dałeś się zepchnąć na krawędź. To jedna z technik, w której spycha się przeciwnika na krawędź planszy, skąd nie ma ucieczki.
 
@@ -312,19 +312,19 @@ Pchaj do swoich kamieni.
 
 
 :: 2AvLLTr8dHXNeh6WAhr68Z[dialogue white oiotoshi 8]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Ta technika nazywa się Oiotoshi - przygwożdżenie. Nie da się z niej uciec. Jesteś w atari, z którego uciekasz, tylko po to, żeby się przekonać, że znów jesteś w atari. I tym razem, już nie możesz uciec.
 
 
 :: bE8bHKzC51u4BKReU6Wf41[dialogue white capturing-race]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Wygrałam ten wyścig!
 
 
 :: tV3M9xoKJLMognpFi9Nef5[dialogue black defend-before-attacking 78]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 <%
 GoGame.Utils.visit('tV3M9xoKJLMognpFi9Nef5');
@@ -340,39 +340,39 @@ Serio? Tak trudno zauważyć atari?
 
 
 :: 4HzawPwmSbe19rG8e4jzcz[dialogue black dont-save-dead 7]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Nie ratuj czegoś, co już jest martwe. Czasem zwyczajnie nie da się uciec i nie ma sensu dokładać przeciwnikowi kamieni.
 Nie uciekaj, jeśli nie masz dokąd.
 
 
 :: 7jCYsV5chpPULid9G5DzNT[dialogue black suicide 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Nie miałam cię za samobójce. Jeśli zagrasz w miejsce, gdzie po postawieniu kamienia nie będziesz mieć ani jednego oddechu, to twój kamień zostaje automatycznie schwytany i przegrywasz.
 
 
 :: cnRiiavpSSXhVnt9AAhKze[dialogue black key-point 1]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Tu jest punkt kluczowy!
 
 
 :: uLxU15PaxtPYuQZpY16jG8[dialogue black capturing-01 1]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Dobrze. To było zwykłe atari, ale udało ci się. Nie dałeś się zwieść. Jeśli ty i przeciwnik oboje jesteście w atari, nie broń się, tylko atakuj.
 To było łatwe, podłożyła się pani?
 
 
 :: v51aCUzCeCHrvbP7iDXoUH[dialogue black capturing-02 0]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Tak, mogłeś zbić w self atari. Brawo!
 
 
 :: uhQXqw5ayzHEpxvk3ZRZWL[dialogue black capturing-03 0]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Tak, mogłeś zbić w ruch samobójczy. Brawo!
 
@@ -390,18 +390,18 @@ Saving 03
 
 
 :: ioBo6nkFsnvRstDKR8oRwk[dialogue black both-sides-atari 0]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 Bardzo dobrze, kiedy oboje jesteśmy w atari, powinieneś zbić pierwszy. Nie próbuj uciekać, bo zginiesz.
 
 
 :: sR978fKBo9QdFq5UREEPaH[dialogue black self-atari 7]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Wpadłeś w self atari, tzn. że sam mi się podłożyłeś.
 
 
 :: hpQytD58JCFWDnmsaCST53[dialogue black failed-atari 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Samo atari to za mało żeby mnie złapać. Łatwo mi z niego uciec. Spróbuj czegoś lepszego.
 
@@ -411,7 +411,7 @@ Tnij, żeby atakować.
 
 
 :: fQsQZScy6m6wv5rQwy2Kch[dialogue black atari-to-endline 10]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Przyparłeś mnie do muru? Jak śmiesz używać moich zaklęć przeciwko mnie? Udało ci się zepchnąć mnie do krawędzi.
 
@@ -421,54 +421,54 @@ Pchaj do swoich kamieni.
 
 
 :: piEmpUA1hRThoQ9fyAotH1[dialogue black avoid-double-atari 0]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Świetna robota, udało ci się uniknąć mojego podwójnego atari. Kiedy w nie wpadniesz - nie ma ucieczki. Dlatego staraj się w nie nie wpadać za często.
 
 
 :: qXHoaCyZnD9Xagztmp8LeR[dialogue black double-atari 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Udało ci się wykonać podwójne atari? Nieźle.
 
 
 :: gNn38eethP4KSnH2FivaYB[dialogue black failed-ladder 3]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Niestety, drabinka to nie jest złoty środek. Czasem się nie udaje. Znasz historię o nowym młotku?
 
 
 :: eCPG2dCSbPbT5N5DyF7TTv[dialogue black broken-ladder 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Twoja drabinka trafiła na kamień. Bywa. Zanim pójdziesz w drabinkę, sprawdź, czy nie ma czegoś na jej drodze.
 
 
 :: rzPbYaqoEMeMqT7Kyi6jEQ[dialogue black ladder 4]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Wiesz jak zrobić drabinkę? Umiesz drabinkę? Zaimponowałeś mi! Wiesz jak zaimponować kobiecie.
 
 
 :: 21epsCj3vVvKYMuWPi9ikb[dialogue black failed-net 1]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Siatka to nie jest złoty środek na wszystko. Czasem może warto spróbować czegoś innego?
 
 
 :: tFhCvmwuPuDK3BFwcqYMbW[dialogue black net 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Udało ci się wykonać siatkę? Nieźle.
 
 
 :: 2bGdcMMEtcgDmJZ8WgdwQw[dialogue black net-over-ladder 2]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Siatka ponad drabinką. Kiedy na drodze twojej drabinki stoi łamacz drabinek, to czasem lepiej użyć siatki. Zwykle jest bardziej niezawodna.
 
 
 :: mDDuYJmfa1ca8Zo9PxnUMN[dialogue black oiotoshi 5]
-Pani Yukari
+<%= GoGame.Character.yukari %>
 
 Skopiowałeś moje Oiotoshi?! Jak śmiesz używać moich zaklęć przeciwko mnie!
