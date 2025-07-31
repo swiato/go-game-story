@@ -1,5 +1,10 @@
 class Dialogue {
     startDialogue(passageName) {
+        if(!window.story.passage(passageName)) {
+            console.log(`Passage '${passageName}' doesn't exist!`);
+            return;
+        }
+
         const dialogueHtml = window.story.passage('components.dialogue').render();
         const passage = document.getElementsByTagName('tw-passage')[0];
         passage.insertAdjacentHTML('beforeend', dialogueHtml);
@@ -16,7 +21,17 @@ class Dialogue {
     // }
 
     #renderDialogue(passageName) {
-        const html = window.story.passage(passageName).render();
+        const dialogue = window.story.passage(passageName);
+        window.dialogue = dialogue;
+
+        if(!dialogue.visited) {
+           dialogue.visited = 0;
+        }
+
+        const html = dialogue.render();
+
+        dialogue.visited++;
+
         const dialogueOverlay = document.getElementById('dialogue-overlay');
         const dialogueText = document.getElementById('dialogue-text');
         const choiceBox = document.getElementById('choice-box');
@@ -75,20 +90,5 @@ class Dialogue {
                 dialogueNext.classList.add('hidden');
             };
         }
-    }
-
-    #visit(passageId) {
-        const passage = window.story.passage(passageId);
-
-        if (!passage.visited) {
-            passage.visited = 1;
-        } else {
-            passage.visited++;
-        }
-    }
-
-    #visited(passageId) {
-        const passage = window.story.passage(passageId);
-        return passage.visited;
     }
 }

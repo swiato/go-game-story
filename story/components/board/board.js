@@ -42,9 +42,9 @@ class IdleState extends State {
         this.context.hint.disabled = false;
         this.context.hint.checked = false;
 
+        this.context.setProgress(this.context.puzzleController.currentPuzzleIndex);
         this.context.setCaptures(0, 0);
         this.context.showSanity();
-
         this.context.hideSkill();
 
         this.context.puzzleController.addEventListener('played', this.context.onPlayed);
@@ -250,8 +250,6 @@ class BoardController {
             this.show(this.hintContainer);
         }
 
-        this.setProgress(0);
-
         this.hint.addEventListener('click', () => this.puzzleController.toggleHint(this.hint.checked));
         this.next.addEventListener('click', () => this.puzzleController.nextPuzzle());
         this.reset.addEventListener('click', () => this.puzzleController.loadPuzzle());
@@ -283,12 +281,8 @@ class BoardController {
     };
 
     onDialogueStarted = (event) => {
-        this.showDialogue(event.detail.dialogue);
+        GoGame.startDialogue(event.detail.dialogue);
     };
-
-    showDialogue(dialogue) {
-        GoGame.startDialogue(dialogue);
-    }
 
     setProgress(value) {
         this.progress.innerText = `${value}/${this.puzzleController.puzzles.length}`;

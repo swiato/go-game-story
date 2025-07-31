@@ -245,13 +245,13 @@ Permadeath?! Jak w roguelike'ach? Brzmi nieźle.
 Ty zaczynasz. Grasz czarnymi.
 
 
-:: acPqWveEDkryAwo6g4ojPd[dialogue white capturing-02 0]
+:: acPqWveEDkryAwo6g4ojPd[white capturing-02]
 <%= GoGame.Character.yukari %>
 
 Zwykle granie w self atari nie ma sensu, ale jeśli tym ruchem wygrywam grę, to czemu nie?
 
 
-:: 883Gm5JtqtCzKQoMXtbmFB[dialogue white capturing-03 2]
+:: 883Gm5JtqtCzKQoMXtbmFB[white capturing-03]
 <%= GoGame.Character.yukari %>
 
 Tak mogę tu zbić. Zbicie w samobójcze miejsce jest jak najbardziej ok. Jeśli podczas zbijania odzyskasz oddech - wszystko jest gites.
@@ -264,205 +264,201 @@ Tak mogę tu zbić. Zbicie w samobójcze miejsce jest jak najbardziej ok. Jeśli
 Czy pani wymyśla te zasady na poczekaniu?
 
 
-:: amKtKc9ercMjiP15rmXJC5[dialogue white self-atari 1]
+:: amKtKc9ercMjiP15rmXJC5[white self-atari]
 <%= GoGame.Character.yukari %>
 
 Wpadłam w self atari?! Nie wierzę, że wpadłam w coś takiego?! Wpadłam w automatyczne atari.
 
 
-:: tNm2XfCrdwC6nU66cun2FW[dialogue white atari-while-cutting]
+:: tNm2XfCrdwC6nU66cun2FW[white atari-while-cutting]
 <%= GoGame.Character.yukari %>
 
 Można też wykorzystać cięcie, żeby zrobić atari, z którego nie da się uciec.
 
 
-:: 79zWnztYzJ4LtkAtUPfgE4[dialogue white both-sides-atari]
+:: 79zWnztYzJ4LtkAtUPfgE4[white both-sides-atari]
 <%= GoGame.Character.yukari %>
 
 Kiedy oboje jesteśmy w atari nie próbuj uciekać, lepiej zbij od razu.
 
 
-:: g5QiEbZewWCQiUXf1MPs6v[dialogue white double-atari 6]
+:: g5QiEbZewWCQiUXf1MPs6v[white double-atari]
 <%= GoGame.Character.yukari %>
 
 Wpadłeś w podwójne atari. Możesz uciec tylko z jednego atari, nie ma znaczenia którego i tak jesteś już martwy.
 Ta technika nazywa się podwójne atari - nie da się z niej uciec.
 
 
-:: 8DkfLDG73b1cenKjmuerim[dialogue white ladder 6]
+:: 8DkfLDG73b1cenKjmuerim[white ladder]
 <%= GoGame.Character.yukari %>
 
 Ta technika nazywa się drabinka.
 
 
-:: h3eBpsdNoxV7PxVgrw1sCn[dialogue white net 2]
+:: h3eBpsdNoxV7PxVgrw1sCn[white net]
 <%= GoGame.Character.yukari %>
 
 Ta technika nazywa się siatka. Nie uciekniesz z niej.
 
 
-:: dFzS2QPF4riiDHM6MLujo6[dialogue white atari-to-endline 28]
+:: dFzS2QPF4riiDHM6MLujo6[white atari-to-endline]
 <%= GoGame.Character.yukari %>
 
 Dałeś się zepchnąć na krawędź. To jedna z technik, w której spycha się przeciwnika na krawędź planszy, skąd nie ma ucieczki.
 
 
-:: 6zGFyqdeBE6hMdgRpxYx4r[dialogue white atari-to-stones 0]
+:: 6zGFyqdeBE6hMdgRpxYx4r[white atari-to-stones]
 Pchaj do swoich kamieni.
 
 
-:: 2AvLLTr8dHXNeh6WAhr68Z[dialogue white oiotoshi 8]
+:: 2AvLLTr8dHXNeh6WAhr68Z[white oiotoshi]
 <%= GoGame.Character.yukari %>
 
 Ta technika nazywa się Oiotoshi - przygwożdżenie. Nie da się z niej uciec. Jesteś w atari, z którego uciekasz, tylko po to, żeby się przekonać, że znów jesteś w atari. I tym razem, już nie możesz uciec.
 
 
-:: bE8bHKzC51u4BKReU6Wf41[dialogue white capturing-race]
+:: bE8bHKzC51u4BKReU6Wf41[white capturing-race]
 <%= GoGame.Character.yukari %>
 
 Wygrałam ten wyścig!
 
 
-:: tV3M9xoKJLMognpFi9Nef5[dialogue black defend-before-attacking 78]
+:: tV3M9xoKJLMognpFi9Nef5[black defend-before-attacking]
 <%= GoGame.Character.yukari %>
 
-<%
-GoGame.Utils.visit('tV3M9xoKJLMognpFi9Nef5');
-%>
-
-<% if(GoGame.Utils.visited('tV3M9xoKJLMognpFi9Nef5') == 1) { %>
-Zanim spróbujesz mnie atakować, najpierw zadbaj o swoje bezpieczeństwo.
-<% } else { %>
+<% if(window.dialogue.visited > 0) { %>
 Serio? Tak trudno zauważyć atari?
+<% } else { %>
+Zanim spróbujesz mnie atakować, najpierw zadbaj o swoje bezpieczeństwo.
 <%
 }
 %>
 
 
-:: 4HzawPwmSbe19rG8e4jzcz[dialogue black dont-save-dead 7]
+:: 4HzawPwmSbe19rG8e4jzcz[black dont-save-dead]
 <%= GoGame.Character.yukari %>
 
 Nie ratuj czegoś, co już jest martwe. Czasem zwyczajnie nie da się uciec i nie ma sensu dokładać przeciwnikowi kamieni.
 Nie uciekaj, jeśli nie masz dokąd.
 
 
-:: 7jCYsV5chpPULid9G5DzNT[dialogue black suicide 2]
+:: 7jCYsV5chpPULid9G5DzNT[black suicide]
 <%= GoGame.Character.yukari %>
 
 Nie miałam cię za samobójce. Jeśli zagrasz w miejsce, gdzie po postawieniu kamienia nie będziesz mieć ani jednego oddechu, to twój kamień zostaje automatycznie schwytany i przegrywasz.
 
 
-:: cnRiiavpSSXhVnt9AAhKze[dialogue black key-point 1]
+:: cnRiiavpSSXhVnt9AAhKze[black key-point]
 <%= GoGame.Character.yukari %>
 
 Tu jest punkt kluczowy!
 
 
-:: uLxU15PaxtPYuQZpY16jG8[dialogue black capturing-01 1]
+:: uLxU15PaxtPYuQZpY16jG8[black capturing-01]
 <%= GoGame.Character.yukari %>
 
 Dobrze. To było zwykłe atari, ale udało ci się. Nie dałeś się zwieść. Jeśli ty i przeciwnik oboje jesteście w atari, nie broń się, tylko atakuj.
 To było łatwe, podłożyła się pani?
 
 
-:: v51aCUzCeCHrvbP7iDXoUH[dialogue black capturing-02 0]
+:: v51aCUzCeCHrvbP7iDXoUH[black capturing-02]
 <%= GoGame.Character.yukari %>
 
 Tak, mogłeś zbić w self atari. Brawo!
 
 
-:: uhQXqw5ayzHEpxvk3ZRZWL[dialogue black capturing-03 0]
+:: uhQXqw5ayzHEpxvk3ZRZWL[black capturing-03]
 <%= GoGame.Character.yukari %>
 
 Tak, mogłeś zbić w ruch samobójczy. Brawo!
 
 
-:: vG2Zfe6dboMVPaNRLxnzb9[dialogue black saving-01 0]
+:: vG2Zfe6dboMVPaNRLxnzb9[black saving-01]
 Saving 01
 
 
-:: agu9arsKTXVMYQQppdMHTr[dialogue black saving-02 0]
+:: agu9arsKTXVMYQQppdMHTr[black saving-02]
 Saving 02
 
 
-:: nEn5i95QCXXvvoYHuFwj96[dialogue black saving-03 0]
+:: nEn5i95QCXXvvoYHuFwj96[black saving-03]
 Saving 03
 
 
-:: ioBo6nkFsnvRstDKR8oRwk[dialogue black both-sides-atari 0]
+:: ioBo6nkFsnvRstDKR8oRwk[black both-sides-atari]
 <%= GoGame.Character.yukari %>
 Bardzo dobrze, kiedy oboje jesteśmy w atari, powinieneś zbić pierwszy. Nie próbuj uciekać, bo zginiesz.
 
 
-:: sR978fKBo9QdFq5UREEPaH[dialogue black self-atari 7]
+:: sR978fKBo9QdFq5UREEPaH[black self-atari]
 <%= GoGame.Character.yukari %>
 
 Wpadłeś w self atari, tzn. że sam mi się podłożyłeś.
 
 
-:: hpQytD58JCFWDnmsaCST53[dialogue black failed-atari 2]
+:: hpQytD58JCFWDnmsaCST53[black failed-atari]
 <%= GoGame.Character.yukari %>
 
 Samo atari to za mało żeby mnie złapać. Łatwo mi z niego uciec. Spróbuj czegoś lepszego.
 
 
-:: wHmEtEVN1cE43mqwebWJFY[dialogue black atari-while-cutting 0]
+:: wHmEtEVN1cE43mqwebWJFY[black atari-while-cutting]
 Tnij, żeby atakować.
 
 
-:: fQsQZScy6m6wv5rQwy2Kch[dialogue black atari-to-endline 10]
+:: fQsQZScy6m6wv5rQwy2Kch[black atari-to-endline]
 <%= GoGame.Character.yukari %>
 
 Przyparłeś mnie do muru? Jak śmiesz używać moich zaklęć przeciwko mnie? Udało ci się zepchnąć mnie do krawędzi.
 
 
-:: joeV4E7X1Eczi6NqkTw8uB[dialogue black atari-to-stones 0]
+:: joeV4E7X1Eczi6NqkTw8uB[black atari-to-stones]
 Pchaj do swoich kamieni.
 
 
-:: piEmpUA1hRThoQ9fyAotH1[dialogue black avoid-double-atari 0]
+:: piEmpUA1hRThoQ9fyAotH1[black avoid-double-atari]
 <%= GoGame.Character.yukari %>
 
 Świetna robota, udało ci się uniknąć mojego podwójnego atari. Kiedy w nie wpadniesz - nie ma ucieczki. Dlatego staraj się w nie nie wpadać za często.
 
 
-:: qXHoaCyZnD9Xagztmp8LeR[dialogue black double-atari 2]
+:: qXHoaCyZnD9Xagztmp8LeR[black double-atari]
 <%= GoGame.Character.yukari %>
 
 Udało ci się wykonać podwójne atari? Nieźle.
 
 
-:: gNn38eethP4KSnH2FivaYB[dialogue black failed-ladder 3]
+:: gNn38eethP4KSnH2FivaYB[black failed-ladder]
 <%= GoGame.Character.yukari %>
 
 Niestety, drabinka to nie jest złoty środek. Czasem się nie udaje. Znasz historię o nowym młotku?
 
 
-:: eCPG2dCSbPbT5N5DyF7TTv[dialogue black broken-ladder 2]
+:: eCPG2dCSbPbT5N5DyF7TTv[black broken-ladder]
 <%= GoGame.Character.yukari %>
 
 Twoja drabinka trafiła na kamień. Bywa. Zanim pójdziesz w drabinkę, sprawdź, czy nie ma czegoś na jej drodze.
 
 
-:: rzPbYaqoEMeMqT7Kyi6jEQ[dialogue black ladder 4]
+:: rzPbYaqoEMeMqT7Kyi6jEQ[black ladder]
 <%= GoGame.Character.yukari %>
 
 Wiesz jak zrobić drabinkę? Umiesz drabinkę? Zaimponowałeś mi! Wiesz jak zaimponować kobiecie.
 
 
-:: 21epsCj3vVvKYMuWPi9ikb[dialogue black failed-net 1]
+:: 21epsCj3vVvKYMuWPi9ikb[black failed-net]
 <%= GoGame.Character.yukari %>
 
 Siatka to nie jest złoty środek na wszystko. Czasem może warto spróbować czegoś innego?
 
 
-:: tFhCvmwuPuDK3BFwcqYMbW[dialogue black net 2]
+:: tFhCvmwuPuDK3BFwcqYMbW[black net]
 <%= GoGame.Character.yukari %>
 
 Udało ci się wykonać siatkę? Nieźle.
 
 
-:: 2bGdcMMEtcgDmJZ8WgdwQw[dialogue black net-over-ladder 2]
+:: 2bGdcMMEtcgDmJZ8WgdwQw[black net-over-ladder]
 <%= GoGame.Character.yukari %>
 
 Siatka ponad drabinką. Kiedy na drodze twojej drabinki stoi łamacz drabinek, to czasem lepiej użyć siatki. Zwykle jest bardziej niezawodna.
@@ -474,7 +470,7 @@ Siatka ponad drabinką. Kiedy na drodze twojej drabinki stoi łamacz drabinek, t
 Drabinka ponad siatką. Czasem jednak lepiej użyć drabinki.
 
 
-:: mDDuYJmfa1ca8Zo9PxnUMN[dialogue black oiotoshi 5]
+:: mDDuYJmfa1ca8Zo9PxnUMN[black oiotoshi]
 <%= GoGame.Character.yukari %>
 
 Skopiowałeś moje Oiotoshi?! Jak śmiesz używać moich zaklęć przeciwko mnie!
