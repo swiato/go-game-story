@@ -1,4 +1,4 @@
-:: components/board
+:: components.board[scene]
 <div class="hbox">
     <div id="board" class="solid"></div>
     <div class="vbox">
@@ -33,7 +33,7 @@
             </div>
             <h3 id="won" class="green uppercase hidden">Zwycięstwo!</h3>
             <h3 id="lost" class="red uppercase hidden">Przegrana...</h3>
-            <a id="next-passage" class="hidden" href="javascript:void(0)">>></a>
+            <button id="next-passage" class="hidden" onclick="window.story.show(window.story.state.lastPassage)">Dalej</button>
         </div>
     </div>
 </div>
@@ -49,9 +49,7 @@
         <input id="hint" type="checkbox" />
     </div>
 </div>
-<div id="overlay" class="overlay hidden"></div>
-<div id="dialogue" class="over-overlay hidden"></div>
 </div>
 <script>
-    GoGame.startChallenge(document);
+    GoGame.startBoard(document);
 </script>

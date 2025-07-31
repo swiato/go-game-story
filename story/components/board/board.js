@@ -42,9 +42,9 @@ class IdleState extends State {
         this.context.hint.disabled = false;
         this.context.hint.checked = false;
 
+        this.context.setProgress(this.context.puzzleController.currentPuzzleIndex);
         this.context.setCaptures(0, 0);
         this.context.showSanity();
-
         this.context.hideSkill();
 
         this.context.puzzleController.addEventListener('played', this.context.onPlayed);
@@ -213,7 +213,7 @@ class LostState extends State {
     }
 }
 
-class ChallengeController {
+class BoardController {
     constructor(context, puzzleController) {
         this.context = context;
         this.puzzleController = puzzleController;
@@ -237,8 +237,6 @@ class ChallengeController {
         this.won = this.context.getElementById('won');
         this.lost = this.context.getElementById('lost');
         this.nextPassage = this.context.getElementById('next-passage');
-        this.overlay = this.context.getElementById('overlay');
-        this.dialogue = this.context.getElementById('dialogue');
 
         this.title = this.context.getElementById('title');
         this.description = this.context.getElementById('description');
@@ -251,8 +249,6 @@ class ChallengeController {
         } else {
             this.show(this.hintContainer);
         }
-
-        this.setProgress(0);
 
         this.hint.addEventListener('click', () => this.puzzleController.toggleHint(this.hint.checked));
         this.next.addEventListener('click', () => this.puzzleController.nextPuzzle());
@@ -285,27 +281,7 @@ class ChallengeController {
     };
 
     onDialogueStarted = (event) => {
-        this.showDialogue(event.detail.dialogue);
-    };
-
-    showDialogue(dialogue) {
-        this.overlay.addEventListener('click', this.hideDialogue);
-        this.show(this.overlay);
-        this.show(this.dialogue);
-        Utils.renderPassage('dialogue', dialogue);
-    }
-
-    hideDialogue = () => {
-        const links = this.dialogue.querySelectorAll('a');
-
-        if (links.length > 0) {
-            return;
-        }
-
-        this.overlay.removeEventListener('click', this.hideDialogue);
-        this.dialogue.innerHTML = '';
-        this.hide(this.overlay);
-        this.hide(this.dialogue);
+        GoGame.startDialogue(event.detail.dialogue);
     };
 
     setProgress(value) {
@@ -328,12 +304,10 @@ class ChallengeController {
 
     showNextPassage() {
         this.show(this.nextPassage);
-        this.nextPassage.setAttribute('data-passage', s.player.nextDialogue);
     }
 
     hideNextPassage() {
         this.hide(this.nextPassage);
-        this.nextPassage.removeAttribute('data-passage');
     }
 
     showSkill(skill) {
@@ -583,13 +557,12 @@ class PuzzleController extends EventTarget {
 
     #handleFailure() {
         this.failed = true;
+        this.sanity--;
         this.#emitFailedEvent();
 
         if (this.challenge.reviewMode) {
             return;
         }
-
-        this.sanity--;
 
         if (this.sanity <= 0) {
             this.gameOver = true;
