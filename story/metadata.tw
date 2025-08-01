@@ -7,13 +7,13 @@ go-game-story
   "ifid": "2DBDAAC2-59D3-4D67-8D84-0E4E64F27212",
   "format": "Snowman",
   "format-version": "2.0.2",
-  "start": "2kWRaRgaSYZCD9fbTWXuKs"
+  "start": "de8A8CDJvrtG1E8GPx3gqA"
 }
 
 :: UserScript[script]
-// $(window).on('sm.passage.shown', (event, data) => {
-//   window.story.checkpoint(data.passage.name);
-// });
 $(window).on('sm.passage.hidden', (event, data) => {
   window.story.state.lastPassage = data.passage?.name;
 });
+// $(window).on('sm.passage.shown', (event, data) => {
+//   window.story.checkpoint(data.passage.name);
+// });

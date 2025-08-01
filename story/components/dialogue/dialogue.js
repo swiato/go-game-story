@@ -69,10 +69,10 @@ class Dialogue {
                 choiceButton.onclick = () => {
                     const tags = window.story.passage(target).tags;
 
-                    if (tags.includes('dialogue')) {
-                        this.#renderDialogue(target);
-                    } else {
+                    if (tags.includes('scene')) {
                         window.story.show(target);
+                    } else {
+                        this.#renderDialogue(target);
                     }
 
                     choiceBox.innerHTML = '';
