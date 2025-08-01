@@ -1,3 +1,177 @@
+:: de8A8CDJvrtG1E8GPx3gqA[scene]
+<script>
+    GoGame.startDialogue('gPQUYk3RQAdFpsbKqZgJUg');
+</script>
+
+
+:: gPQUYk3RQAdFpsbKqZgJUg
+<%= GoGame.Character.yukari %>
+
+Może w coś zagramy?
+[[>>|4CGLy4JZv4ZPRbhjvx52QJ]]
+
+
+:: 4CGLy4JZv4ZPRbhjvx52QJ
+<%= GoGame.Character.igor %>
+
+Ma pani PlayStation albo Xboxa?
+[[>>|7PPPoC44pfYuCooqR3GJij]]
+
+
+:: 7PPPoC44pfYuCooqR3GJij
+Rozglądam się sceptycznie. Nigdzie nie widzę śladu elektroniki.
+[[>>|mepTboeUcrZmGFZVjCMSij]]
+
+
+:: mepTboeUcrZmGFZVjCMSij
+<%= GoGame.Character.yukari %>
+
+Zagramy w Atari Go.
+[[>>|jZbUgxzKjon3veskMtEjac]]
+
+
+:: jZbUgxzKjon3veskMtEjac
+Atari?! Trochę stary sprzęt, ale... 
+[[>>|qgr6SojgodAg2zyRVtRd99]]
+
+
+:: qgr6SojgodAg2zyRVtRd99
+<%= GoGame.Character.igor %>
+
+Może być.
+[[>>|7H5Z5Wz65Xc96GTEtdFbEs]]
+
+
+:: 7H5Z5Wz65Xc96GTEtdFbEs
+<%= GoGame.Character.yukari %>
+
+Zaraz przyniosę.
+[[>>|bSvV1rAAuWDJctC5gPPDFz]]
+
+
+:: bSvV1rAAuWDJctC5gPPDFz
+Wychodzi i wraca po chwili.
+[[>>|nrDPzymP7JsjLUW9pfvtoW]]
+
+
+:: nrDPzymP7JsjLUW9pfvtoW
+<%= GoGame.Character.igor %>
+
+C-co to jest?!
+[[>>|73225uekztBGB8iHQJjC9t]]
+
+
+:: 73225uekztBGB8iHQJjC9t
+Wygląda jak... deska do krojenia?! W dodatku już mocno pociachana.
+[[>>|mAhqNRNctn6SRj1yLXDmkQ]]
+
+
+:: mAhqNRNctn6SRj1yLXDmkQ
+<%= GoGame.Character.yukari %>
+
+To goban - plansza do Go.
+[[>>|2KtvkrGwaHyCRUC8EKWnVW]]
+
+
+:: 2KtvkrGwaHyCRUC8EKWnVW
+<%= GoGame.Character.igor %>
+
+Go? Myślałem, że... wie pani... konsola, pady...?
+[[>>|81nLr9pd6375KzG3Y5wiRA]]
+
+
+:: 81nLr9pd6375KzG3Y5wiRA
+<%= GoGame.Character.igor %>
+
+Słabo gram w szachy. Z Go nie będzie lepiej...
+[[>>|kK6Nt7JHJ8DAEf56r5f6f5]]
+
+
+:: kK6Nt7JHJ8DAEf56r5f6f5
+<%= GoGame.Character.yukari %>
+
+Wyluzuj. Go ma prostsze zasady niż szachy.
+[[>>|deyi7xKwWMHSW412c2jtBX]]
+
+
+:: deyi7xKwWMHSW412c2jtBX
+<%= GoGame.Character.igor %>
+
+Czyli jest łatwiejsze od szachów?
+[[>>|ptB6fJc31u6oSepPPKEPmL]]
+
+
+:: ptB6fJc31u6oSepPPKEPmL
+Uśmiecha się tajemniczo.
+[[>>|janPi73WsYGHPwgtfGqL4R]]
+
+
+:: janPi73WsYGHPwgtfGqL4R
+<%= GoGame.Character.igor %>
+
+Jest łatwiejsze... prawda?
+[[>>|wNQSuFziCtMD4EQKfyXsBu]]
+
+
+:: wNQSuFziCtMD4EQKfyXsBu
+<%= GoGame.Character.yukari %>
+
+Atari Go to uproszczona wersja Go. Dasz radę.
+[[>>|vzNHN4nHiQGQMZgCBoq5aH]]
+
+
+:: vzNHN4nHiQGQMZgCBoq5aH
+Atari Go to znerfione Go? Czy to coś zmienia?
+[[>>|iNRdbGF8XozcdrbfogU8md]]
+
+
+:: iNRdbGF8XozcdrbfogU8md
+<%= GoGame.Character.igor %>
+
+Wie pani co, ja jednak spasuję...
+[[>>|3bwKn2m6X3tp6qtyK7XJba]]
+
+
+:: 3bwKn2m6X3tp6qtyK7XJba
+<%= GoGame.Character.yukari %>
+
+Nie kombinuj. Zabawimy się trochę.
+[[>>|q61wzzDUnnHywB28g3BYna]]
+
+
+:: q61wzzDUnnHywB28g3BYna
+<%= GoGame.Character.igor %>
+
+Nie wiem, czy to dobry pomysł...
+[[>>|fBUE74MnAdFPr9vXnZ1AQ9]]
+
+
+:: fBUE74MnAdFPr9vXnZ1AQ9
+<%= GoGame.Character.yukari %>
+
+Jesteś mi to winien. Będziesz tu siedział, dopóki ze mną nie zagrasz.
+[[>>|7FWEpjcNwJYKe7M9fDw8iS]]
+
+
+:: 7FWEpjcNwJYKe7M9fDw8iS
+Kto by pomyślał, że babeczka od angielskiego okaże się ukrytym bossem? Na przyszłość - nie ściągać na siebie aggro nauczyciela.
+[[>>|sWYC4ZwsQ7d9DmLJ896t2P]]
+
+
+:: sWYC4ZwsQ7d9DmLJ896t2P
+<%= GoGame.Character.igor %>
+
+Dobra. To... jak się w to gra?
+[[>>|1cBuqpbzGo1T1P6UsfBvzp]]
+
+
+:: 1cBuqpbzGo1T1P6UsfBvzp
+<%= GoGame.Character.yukari %>
+
+W Atari Go musisz schwytać kamienie przeciwnika, zanim on złapie Twoje. Najlepiej przećwicz to na kilku przykładach.
+[[>>|2kWRaRgaSYZCD9fbTWXuKs]]
+
+
 :: 2kWRaRgaSYZCD9fbTWXuKs[scene]
 <script>
     if(window.story.state.player.nextDialogue) {
@@ -28,14 +202,14 @@ Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
 
 
 :: i1w7w9rfqFUoGh4wyNc1kd
-To jakiś samouczek?! Złapałem laga... co miałem zrobić? Schwytać białe kamienie? Robi się!
+Złapałem laga... To jakiś samouczek?! Zaraz... co miałem zrobić? Schwytać białe kamienie? Robi się!
 [[>>|78NDtg9PCHF6A5CyM4Mkeh]]
 
 
 :: 78NDtg9PCHF6A5CyM4Mkeh
 <%= GoGame.Character.igor %>
 
-Tylko... jak się chwyta kamienie?!
+Tylko... jak się łapie kamienie?!
 [[>>|xu8FsECjE8MKjSbvm2Dyf6]]
 
 
