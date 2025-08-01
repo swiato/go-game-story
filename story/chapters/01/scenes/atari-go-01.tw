@@ -8,168 +8,180 @@
 <%= GoGame.Character.yukari %>
 
 Może w coś zagramy?
-[[>>|4CGLy4JZv4ZPRbhjvx52QJ]]
-
+[[Ok|qgr6SojgodAg2zyRVtRd99]]
+[[Na konsoli?|4CGLy4JZv4ZPRbhjvx52QJ]]
+[[Nie, dzięki|iNRdbGF8XozcdrbfogU8md]]
 
 :: 4CGLy4JZv4ZPRbhjvx52QJ
 <%= GoGame.Character.igor %>
 
 Ma pani PlayStation albo Xboxa?
-[[>>|7PPPoC44pfYuCooqR3GJij]]
+[[7PPPoC44pfYuCooqR3GJij]]
 
 
 :: 7PPPoC44pfYuCooqR3GJij
 Rozglądam się sceptycznie. Nigdzie nie widzę śladu elektroniki.
-[[>>|mepTboeUcrZmGFZVjCMSij]]
+[[mepTboeUcrZmGFZVjCMSij]]
 
 
 :: mepTboeUcrZmGFZVjCMSij
 <%= GoGame.Character.yukari %>
 
 Zagramy w Atari Go.
-[[>>|jZbUgxzKjon3veskMtEjac]]
+[[jZbUgxzKjon3veskMtEjac]]
 
 
 :: jZbUgxzKjon3veskMtEjac
 Atari?! Trochę stary sprzęt, ale... 
-[[>>|qgr6SojgodAg2zyRVtRd99]]
+[[qgr6SojgodAg2zyRVtRd99]]
 
 
 :: qgr6SojgodAg2zyRVtRd99
 <%= GoGame.Character.igor %>
 
-Może być.
-[[>>|7H5Z5Wz65Xc96GTEtdFbEs]]
+Dobra - zagrajmy.
+[[7H5Z5Wz65Xc96GTEtdFbEs]]
 
 
 :: 7H5Z5Wz65Xc96GTEtdFbEs
 <%= GoGame.Character.yukari %>
 
-Zaraz przyniosę.
-[[>>|bSvV1rAAuWDJctC5gPPDFz]]
+Zaraz przyniosę grę.
+[[bSvV1rAAuWDJctC5gPPDFz]]
 
 
 :: bSvV1rAAuWDJctC5gPPDFz
 Wychodzi i wraca po chwili.
-[[>>|nrDPzymP7JsjLUW9pfvtoW]]
+[[nrDPzymP7JsjLUW9pfvtoW]]
 
 
 :: nrDPzymP7JsjLUW9pfvtoW
 <%= GoGame.Character.igor %>
 
 C-co to jest?!
-[[>>|73225uekztBGB8iHQJjC9t]]
+[[73225uekztBGB8iHQJjC9t]]
 
 
 :: 73225uekztBGB8iHQJjC9t
 Wygląda jak... deska do krojenia?! W dodatku już mocno pociachana.
-[[>>|mAhqNRNctn6SRj1yLXDmkQ]]
+[[mAhqNRNctn6SRj1yLXDmkQ]]
 
 
 :: mAhqNRNctn6SRj1yLXDmkQ
 <%= GoGame.Character.yukari %>
 
 To goban - plansza do Go.
-[[>>|2KtvkrGwaHyCRUC8EKWnVW]]
-
-
-:: 2KtvkrGwaHyCRUC8EKWnVW
-<%= GoGame.Character.igor %>
-
-Go? Myślałem, że... wie pani... konsola, pady...?
-[[>>|81nLr9pd6375KzG3Y5wiRA]]
+[[81nLr9pd6375KzG3Y5wiRA]]
 
 
 :: 81nLr9pd6375KzG3Y5wiRA
 <%= GoGame.Character.igor %>
 
-Słabo gram w szachy. Z Go nie będzie lepiej...
-[[>>|kK6Nt7JHJ8DAEf56r5f6f5]]
+<%
+if(window.story.passage('4CGLy4JZv4ZPRbhjvx52QJ').visited) {
+%>
+Go? Myślałem, że... wie pani... konsola, pady...?
+[[9XzLAMZrPXuht7xbvuV3XY]]
+<%
+} else {
+%>
+Go? Słabo gram w szachy. Z Go pewnie będzie tak samo...
+[[kK6Nt7JHJ8DAEf56r5f6f5]]
+<%
+}
+%>
+
+
+:: 9XzLAMZrPXuht7xbvuV3XY
+<%= GoGame.Character.yukari %>
+
+Bez wykrętów, przecież już się zgodziłeś.
+[[sWYC4ZwsQ7d9DmLJ896t2P]]
 
 
 :: kK6Nt7JHJ8DAEf56r5f6f5
 <%= GoGame.Character.yukari %>
 
 Wyluzuj. Go ma prostsze zasady niż szachy.
-[[>>|deyi7xKwWMHSW412c2jtBX]]
+[[deyi7xKwWMHSW412c2jtBX]]
 
 
 :: deyi7xKwWMHSW412c2jtBX
 <%= GoGame.Character.igor %>
 
 Czyli jest łatwiejsze od szachów?
-[[>>|ptB6fJc31u6oSepPPKEPmL]]
+[[ptB6fJc31u6oSepPPKEPmL]]
 
 
 :: ptB6fJc31u6oSepPPKEPmL
 Uśmiecha się tajemniczo.
-[[>>|janPi73WsYGHPwgtfGqL4R]]
+[[janPi73WsYGHPwgtfGqL4R]]
 
 
 :: janPi73WsYGHPwgtfGqL4R
 <%= GoGame.Character.igor %>
 
 Jest łatwiejsze... prawda?
-[[>>|wNQSuFziCtMD4EQKfyXsBu]]
+[[wNQSuFziCtMD4EQKfyXsBu]]
 
 
 :: wNQSuFziCtMD4EQKfyXsBu
 <%= GoGame.Character.yukari %>
 
-Atari Go to uproszczona wersja Go. Dasz radę.
-[[>>|vzNHN4nHiQGQMZgCBoq5aH]]
+Spokojnie. Zagramy w Atari Go - uproszczoną wersję Go. Dasz radę.
+[[vzNHN4nHiQGQMZgCBoq5aH]]
 
 
 :: vzNHN4nHiQGQMZgCBoq5aH
-Atari Go to znerfione Go? Czy to coś zmienia?
-[[>>|iNRdbGF8XozcdrbfogU8md]]
+Znerfione Go?
+[[sWYC4ZwsQ7d9DmLJ896t2P]]
 
 
 :: iNRdbGF8XozcdrbfogU8md
 <%= GoGame.Character.igor %>
 
 Wie pani co, ja jednak spasuję...
-[[>>|3bwKn2m6X3tp6qtyK7XJba]]
+[[3bwKn2m6X3tp6qtyK7XJba]]
 
 
 :: 3bwKn2m6X3tp6qtyK7XJba
 <%= GoGame.Character.yukari %>
 
 Nie kombinuj. Zabawimy się trochę.
-[[>>|q61wzzDUnnHywB28g3BYna]]
+[[q61wzzDUnnHywB28g3BYna]]
 
 
 :: q61wzzDUnnHywB28g3BYna
 <%= GoGame.Character.igor %>
 
 Nie wiem, czy to dobry pomysł...
-[[>>|fBUE74MnAdFPr9vXnZ1AQ9]]
+[[fBUE74MnAdFPr9vXnZ1AQ9]]
 
 
 :: fBUE74MnAdFPr9vXnZ1AQ9
 <%= GoGame.Character.yukari %>
 
 Jesteś mi to winien. Będziesz tu siedział, dopóki ze mną nie zagrasz.
-[[>>|7FWEpjcNwJYKe7M9fDw8iS]]
+[[7FWEpjcNwJYKe7M9fDw8iS]]
 
 
 :: 7FWEpjcNwJYKe7M9fDw8iS
-Kto by pomyślał, że babeczka od angielskiego okaże się ukrytym bossem? Na przyszłość - nie ściągać na siebie aggro nauczyciela.
-[[>>|sWYC4ZwsQ7d9DmLJ896t2P]]
+Lepiej nie ściągać na siebie aggro nauczyciela.
+[[qgr6SojgodAg2zyRVtRd99]]
 
 
 :: sWYC4ZwsQ7d9DmLJ896t2P
 <%= GoGame.Character.igor %>
 
 Dobra. To... jak się w to gra?
-[[>>|1cBuqpbzGo1T1P6UsfBvzp]]
+[[1cBuqpbzGo1T1P6UsfBvzp]]
 
 
 :: 1cBuqpbzGo1T1P6UsfBvzp
 <%= GoGame.Character.yukari %>
 
 W Atari Go musisz schwytać kamienie przeciwnika, zanim on złapie Twoje. Najlepiej przećwicz to na kilku przykładach.
-[[>>|2kWRaRgaSYZCD9fbTWXuKs]]
+[[2kWRaRgaSYZCD9fbTWXuKs]]
 
 
 :: 2kWRaRgaSYZCD9fbTWXuKs[scene]
@@ -198,59 +210,60 @@ Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
             lostPassage = '',
         );
 %>
-[[>>|components.board]]
+[[components.board]]
 
 
 :: i1w7w9rfqFUoGh4wyNc1kd
-Złapałem laga... To jakiś samouczek?! Zaraz... co miałem zrobić? Schwytać białe kamienie? Robi się!
-[[>>|78NDtg9PCHF6A5CyM4Mkeh]]
+To jakiś samouczek?! Zaraz... co miałem zrobić? Złapać białe kamienie? Robi się!
+[[78NDtg9PCHF6A5CyM4Mkeh]]
 
 
 :: 78NDtg9PCHF6A5CyM4Mkeh
 <%= GoGame.Character.igor %>
 
 Tylko... jak się łapie kamienie?!
-[[>>|xu8FsECjE8MKjSbvm2Dyf6]]
+[[xu8FsECjE8MKjSbvm2Dyf6]]
 
 
 :: xu8FsECjE8MKjSbvm2Dyf6
 <%= GoGame.Character.yukari %>
 
 Nie mówiłam, jak się łapie kamienie?
-[[>>|tv3U5N5Y5D7CZAmjeMzaBR]]
+[[Eee...|uXrzbfy5oDnwV4o138Y4ZG]]
+[[Nie|tv3U5N5Y5D7CZAmjeMzaBR]]
 
 
 :: tv3U5N5Y5D7CZAmjeMzaBR
 <%= GoGame.Character.yukari %>
 
 Nie?!
-[[>>|iis4EkFGDB8soSVodM5baP]]
+[[iis4EkFGDB8soSVodM5baP]]
 
 
 :: iis4EkFGDB8soSVodM5baP
 <%= GoGame.Character.yukari %>
 
 Niemożliwe. Pewnie nie słuchałeś. Dobra, skup się. To twoja ostatnia szansa.
-[[>>|uXrzbfy5oDnwV4o138Y4ZG]]
+[[uXrzbfy5oDnwV4o138Y4ZG]]
 
 
 :: uXrzbfy5oDnwV4o138Y4ZG
 <%= GoGame.Character.yukari %>
 
 Żeby schwytać kamienie przeciwnika, wystarczy zablokować im wszystkie drogi ucieczki - tzw. oddechy.
-[[>>|gvEPAy59jdRRjeZdeiKJcH]]
+[[gvEPAy59jdRRjeZdeiKJcH]]
 
 
 :: gvEPAy59jdRRjeZdeiKJcH
 <%= GoGame.Character.yukari %>
 
-Widzisz jak kamienie są ułożone na planszy? Czarne kamienie niemal całkowicie otoczyły białe. Białe są w atari - to znaczy, że został im ostatni oddech. Wykorzystaj to. Zabierz białym ostatni oddech to zostaną twoimi jeńcami.
+Widzisz jak kamienie są ułożone na planszy? Czarne kamienie niemal całkowicie otoczyły białe. Białe są w atari - to znaczy, że został im ostatni oddech. Wykorzystaj to. Zabierz białym ostatni oddech, żeby je schwytać.
 
 
 :: h8wPdxCSczo2LLuBhW8Mg3
 <%= GoGame.Character.yukari %>
 
-Świetna robota. Kiedy otoczysz kamienie przeciwnika, zdejmujesz je z planszy i zabierasz jako swoich jeńców.
+Dobrze. Kiedy otoczysz kamienie przeciwnika, zdejmujesz je z planszy i zabierasz jako swoich jeńców.
 
 
 :: e6MT5zLVKth5eWm989oQev
@@ -269,21 +282,21 @@ Twoja kolej. Grasz czarnymi. Schwytaj białe kamienie jednym ruchem.
             lostPassage = 'iQ1KhucHFrrFk6PPKUbVkw',
         );
 %>
-[[>>|components.board]]
+[[components.board]]
 
 
 :: iQ1KhucHFrrFk6PPKUbVkw
 <%= GoGame.Character.yukari %>
 
 Instrukcje były niejasne? Nie licz na mnie, będziesz musiał to rozgryźć sam.
-[[>>|tnHQJwS2FbAXKXhwLkjcvf]]
+[[tnHQJwS2FbAXKXhwLkjcvf]]
 
 
 :: gqvnWBeWG4KmSkRuZ9RhiW
 <%= GoGame.Character.yukari %>
 
 Jednak coś niecoś potrafisz. Pamiętaj, że przeciwnik też będzie próbował złapać twoje kamienie.
-[[>>|uN5e2kppLonZF4HD5byvoe]]
+[[uN5e2kppLonZF4HD5byvoe]]
 
 
 :: uN5e2kppLonZF4HD5byvoe
@@ -302,7 +315,7 @@ Co gdyby to twoje kamienie były otoczone? Umiałbyś uratować je przed schwyta
             lostPassage = '',
         );
 %>
-[[>>|components.board]]
+[[components.board]]
 
 
 :: vcvM9FhvzBa6qk8jH8mbit
@@ -314,13 +327,13 @@ Grasz czarnymi. Twoje kamienie są w atari - został im ostatni oddech. Gdzie za
 :: wYgFJBk1K4EPy3FN7rAz3y
 <%= GoGame.Character.yukari %>
 
-Jeśli zagrasz tutaj, przeciwnik schwyta twoje kamienie. Żeby je ocalić, spróbuj zwiększyć ilość oddechów czarnych kamieni.
+Jeśli zagrasz tutaj, przeciwnik schwyta twoje kamienie. W Go najlepszy ruch dla przeciwnika jest też często twoim najlepszym ruchem. Możesz to jakoś wykorzystać?
 
 
 :: bQibLUeND8DLdz4J7hWMFB
 <%= GoGame.Character.yukari %>
 
-Wydłużenie się zwiększyło ilość oddechów twoich kamieni. Póki co, są bezpieczne.
+Dobrze. Zagranie w ostatni oddech czarnych kamieni zwiększyło łączną ilość oddechów całej grupy. Póki co, czarne są bezpieczne.
 
 
 :: ujehaLURPWELN5k6edavCa
@@ -339,14 +352,14 @@ Spróbuj sam uratować czarne kamienie.
             lostPassage = 'sDsPJQfpWiEFpLf16Q9WWM',
         );
 %>
-[[>>|components.board]]
+[[components.board]]
 
 
 :: sDsPJQfpWiEFpLf16Q9WWM
 <%= GoGame.Character.yukari %>
 
 Coś poszło nie tak? Nie poddawaj się, spróbuj jeszcze raz.
-[[>>|uN5e2kppLonZF4HD5byvoe]]
+[[uN5e2kppLonZF4HD5byvoe]]
 
 
 :: oV3AJ1tBr4kzqn7rMLGFre
@@ -361,56 +374,56 @@ Umiesz już łapać i ratować kamienie. Na początek powinno wystarczyć. Grajm
             autoResponse = true,
             strictPlay = true,
             reviewMode = false,
-            wonPassage = '',
-            lostPassage = '',
+            wonPassage = '9P9v8AJHrnZszyPY3Vr731',
+            lostPassage = 'a55m6cCad8Tg62GBCq3ETW'
         );
 %>
-[[>>|components.board]]
+[[components.board]]
 
 
 :: uRNMgWqiAHs4c6r9nrUMTU
 <%= GoGame.Character.yukari %>
 
-Dla ułatwienia zaczniemy od takiego ustawienia. Dzięki temu gra będzie szybsza.
-[[>>|wPwBhhSwruvWhiRMTn1vDf]]
+Grę można zacząć na pustej planszy, ale dla ułatwienia zaczniemy od takiego ustawienia. Dzięki temu gra będzie szybsza.
+[[wPwBhhSwruvWhiRMTn1vDf]]
 
 
 :: wPwBhhSwruvWhiRMTn1vDf
 <%= GoGame.Character.yukari %>
 
 Ruchy wykonujemy na zmianę.
-[[>>|cHrpMrNPAqPzmhwuHb5AVW]]
+[[cHrpMrNPAqPzmhwuHb5AVW]]
 
 
 :: cHrpMrNPAqPzmhwuHb5AVW
 Strategia turowa? Jestem całkiem niezły w Heroesy, powinienem dać radę.
-[[>>|3WaCWFqVeX2iED9sjVGwg5]]
+[[3WaCWFqVeX2iED9sjVGwg5]]
 
 
 :: 3WaCWFqVeX2iED9sjVGwg5
 <%= GoGame.Character.yukari %>
 
-Kamień postawiony na planszy nie może się ruszyć i zostaje na niej do końca gry. Chyba, że zostanie schwytany - tak jak ćwiczyliśmy.
-[[>>|iRhdVUaGw7xrs7yVTJHpZy]]
+Kamień raz postawiony na planszy nie może się ruszyć i zostaje na niej do końca gry. Chyba, że zostanie schwytany - tak jak ćwiczyliśmy.
+[[iRhdVUaGw7xrs7yVTJHpZy]]
 
 
 :: iRhdVUaGw7xrs7yVTJHpZy
 <%= GoGame.Character.yukari %>
 
 Gramy do pierwszego schwytanego kamienia. Złapiesz mój kamień - wygrywasz.
-[[>>|mPrmAWhVtjZitNvTXS6cMg]]
+[[mPrmAWhVtjZitNvTXS6cMg]]
 
 
 :: mPrmAWhVtjZitNvTXS6cMg
 <%= GoGame.Character.yukari %>
 
 Ja złapię twój - przegrywasz... i zaczynamy grę od nowa.
-[[>>|onXcxpGmEjeUzkQqggoQ63]]
+[[onXcxpGmEjeUzkQqggoQ63]]
 
 
 :: onXcxpGmEjeUzkQqggoQ63
 Permadeath?! Jak w roguelike'ach? Brzmi nieźle.
-[[>>|eLpudgcD2GJJ7EqQH8XcFJ]]
+[[eLpudgcD2GJJ7EqQH8XcFJ]]
 
 
 :: eLpudgcD2GJJ7EqQH8XcFJ
@@ -420,34 +433,83 @@ Ty zaczynasz. Grasz czarnymi.
 
 
 :: acPqWveEDkryAwo6g4ojPd[white capturing-02]
+<%= GoGame.Character.igor %>
+
+<% if(window.story.passage('sR978fKBo9QdFq5UREEPaH').visited) { %>
+Hej! Mówiła pani, że nie gra się w self atari!
+[[j7YYBZ9MEc5iS9g3CyLpR8]]
+<% } else { %>
+To tak można?
+[[kvP7aXPHMgFYWX78WKX6Tg]]
+<% } %>
+
+
+:: j7YYBZ9MEc5iS9g3CyLpR8
 <%= GoGame.Character.yukari %>
 
-Zwykle granie w self atari nie ma sensu, ale jeśli tym ruchem wygrywam grę, to czemu nie?
+Zwykle granie w self atari nie ma sensu, bo wystawiasz się na złapanie w kolejnej turze. Ale jeśli tym ruchem łapiesz otaczające kamienie, to już nie wpadasz w atari.
+[[kvP7aXPHMgFYWX78WKX6Tg]]
+
+
+:: kvP7aXPHMgFYWX78WKX6Tg
+<% if(window.dialogue.visited) { %>
+I znowu to samo... Czy ona oszukuje?
+<% } else { %>
+Czy ona wymyśla te zasady na poczekaniu?
+<% } %>
 
 
 :: 883Gm5JtqtCzKQoMXtbmFB[white capturing-03]
-<%= GoGame.Character.yukari %>
-
-Tak mogę tu zbić. Zbicie w samobójcze miejsce jest jak najbardziej ok. Jeśli podczas zbijania odzyskasz oddech - wszystko jest gites.
-[[>>|cwyJcvaPZ9N7CnU1ZpK3T4]]
-
-
-:: cwyJcvaPZ9N7CnU1ZpK3T4
 <%= GoGame.Character.igor %>
 
-Czy pani wymyśla te zasady na poczekaniu?
+<% if(window.story.passage('7jCYsV5chpPULid9G5DzNT').visited) { %>
+Mówiła pani, że ruch samobójczy powoduje automatyczną przegraną! To ja powinienem wygrać!
+[[hedVSVWsx6UVT5Kxq69idq]]
+<% } else { %>
+Ale... jak?! Przecież to miejsce było otoczone moimi kamieniami. Jak mogła pani tam zagrać?
+[[vUBb6vKktE9P86YaUGyoH4]]
+<% } %>
+
+:: hedVSVWsx6UVT5Kxq69idq
+<%= GoGame.Character.yukari %>
+
+Ruch samobójczy jest wtedy, kiedy zagrasz w miejsce, gdzie twój kamień nie ma żadnego oddechu. 
+[[vUBb6vKktE9P86YaUGyoH4]]
+
+
+:: vUBb6vKktE9P86YaUGyoH4
+Swoim ruchem zbiłam twoje kamienie i mój kamień zyskał oddech, dzięki czemu nie został złapany.
+[[kvP7aXPHMgFYWX78WKX6Tg]]
 
 
 :: amKtKc9ercMjiP15rmXJC5[white self-atari]
 <%= GoGame.Character.yukari %>
 
-Wpadłam w self atari?! Nie wierzę, że wpadłam w coś takiego?! Wpadłam w automatyczne atari.
+<% if(window.dialogue.visited) { %>
+Self atari? Znowu?! Co się dziś ze mną dzieje?
+<% } else { %>
+Wpadłam w self atari?! Masz szczęście, że nie jestem dziś w formie.
+[[4ZLKteMpsJGGDqSTDRNiei]]
+<% } %>
+
+
+:: 4ZLKteMpsJGGDqSTDRNiei
+<%= GoGame.Character.igor %>
+
+Co to self atari?
+[[rGRfdQ7UHu6mqLbckbCWa5]]
+
+
+:: rGRfdQ7UHu6mqLbckbCWa5
+<%= GoGame.Character.yukari %>
+
+To sytuacja, w której sam wystawiasz się na złapanie w następnej turze. Twój kamień po takim ruchu będzie miał tylko jeden oddech.
 
 
 :: tNm2XfCrdwC6nU66cun2FW[white atari-while-cutting]
 <%= GoGame.Character.yukari %>
 
-Można też wykorzystać cięcie, żeby zrobić atari, z którego nie da się uciec.
+Cięcie, to kolejny sposób, na złapanie kamieni przeciwnika w pułapkę. Wykonując odpowiedni ruch możesz zablokować kamienie przeciwnika, tak, że nie dadzą rady uciec.
 
 
 :: 79zWnztYzJ4LtkAtUPfgE4[white both-sides-atari]
@@ -459,36 +521,45 @@ Kiedy oboje jesteśmy w atari nie próbuj uciekać, lepiej zbij od razu.
 :: g5QiEbZewWCQiUXf1MPs6v[white double-atari]
 <%= GoGame.Character.yukari %>
 
-Wpadłeś w podwójne atari. Możesz uciec tylko z jednego atari, nie ma znaczenia którego i tak jesteś już martwy.
-Ta technika nazywa się podwójne atari - nie da się z niej uciec.
+Wpadłeś w podwójne atari. Możesz uciec tylko z jednego atari, nie ma znaczenia którego i tak jesteś już martwy. Ta technika nazywa się podwójne atari - nie da się z niej uciec.
 
 
 :: 8DkfLDG73b1cenKjmuerim[white ladder]
 <%= GoGame.Character.yukari %>
 
-Ta technika nazywa się drabinka.
+<% if(window.dialogue.visited) { %>
+Nadal dajesz się nabrać na drabinkę?
+<% } else { %>
+Ta technika nazywa się drabinka. Jeśli jest poprawnie wykonana, nie da się z niej uciec. Myślisz, że blefuje?
+<% } %>
 
 
 :: h3eBpsdNoxV7PxVgrw1sCn[white net]
 <%= GoGame.Character.yukari %>
 
+<% if(window.dialogue.visited) { %>
+Ile razy jeszcze wpadniesz w tą samą pułapkę?
+<% } else { %>
 Ta technika nazywa się siatka. Nie uciekniesz z niej.
+<% } %>
 
 
 :: dFzS2QPF4riiDHM6MLujo6[white atari-to-endline]
 <%= GoGame.Character.yukari %>
 
-Dałeś się zepchnąć na krawędź. To jedna z technik, w której spycha się przeciwnika na krawędź planszy, skąd nie ma ucieczki.
+Dałeś się przyprzeć do muru. To technika, w której spycha się przeciwnika na krawędź planszy, skąd nie ma ucieczki.
 
 
 :: 6zGFyqdeBE6hMdgRpxYx4r[white atari-to-stones]
-Pchaj do swoich kamieni.
+<%= GoGame.Character.yukari %>
+
+Dałeś się zepchnąć w kierunku wrogich kamieni - niezbyt mądrze.
 
 
 :: 2AvLLTr8dHXNeh6WAhr68Z[white oiotoshi]
 <%= GoGame.Character.yukari %>
 
-Ta technika nazywa się Oiotoshi - przygwożdżenie. Nie da się z niej uciec. Jesteś w atari, z którego uciekasz, tylko po to, żeby się przekonać, że znów jesteś w atari. I tym razem, już nie możesz uciec.
+Ta technika nazywa się oiotoshi - nie da się z niej uciec. Jesteś w atari, z którego uciekasz, tylko po to, żeby się przekonać, że znów jesteś w atari. I tym razem, już nie ma ucieczki.
 
 
 :: bE8bHKzC51u4BKReU6Wf41[white capturing-race]
@@ -512,27 +583,19 @@ Zanim spróbujesz mnie atakować, najpierw zadbaj o swoje bezpieczeństwo.
 :: 4HzawPwmSbe19rG8e4jzcz[black dont-save-dead]
 <%= GoGame.Character.yukari %>
 
-Nie ratuj czegoś, co już jest martwe. Czasem zwyczajnie nie da się uciec i nie ma sensu dokładać przeciwnikowi kamieni.
-Nie uciekaj, jeśli nie masz dokąd.
+Nie ratuj czegoś, co już jest martwe. Czasem zwyczajnie nie da się uciec i nie ma sensu dokładać przeciwnikowi kamieni. Nie uciekaj, jeśli nie masz dokąd.
 
 
 :: 7jCYsV5chpPULid9G5DzNT[black suicide]
 <%= GoGame.Character.yukari %>
 
-Nie miałam cię za samobójce. Jeśli zagrasz w miejsce, gdzie po postawieniu kamienia nie będziesz mieć ani jednego oddechu, to twój kamień zostaje automatycznie schwytany i przegrywasz.
-
-
-:: cnRiiavpSSXhVnt9AAhKze[black key-point]
-<%= GoGame.Character.yukari %>
-
-Tu jest punkt kluczowy!
+Nie miałam cię za samobójce. Jeśli postawiony kamień nie będzie mieć ani jednego oddechu, to zostanie automatycznie schwytany.
 
 
 :: uLxU15PaxtPYuQZpY16jG8[black capturing-01]
 <%= GoGame.Character.yukari %>
 
-Dobrze. To było zwykłe atari, ale udało ci się. Nie dałeś się zwieść. Jeśli ty i przeciwnik oboje jesteście w atari, nie broń się, tylko atakuj.
-To było łatwe, podłożyła się pani?
+Dobrze. To było zwykłe atari, ale udało ci się. Nie dałeś się zwieść. Jeśli ty i przeciwnik oboje jesteście w atari, nie broń się, tylko atakuj
 
 
 :: v51aCUzCeCHrvbP7iDXoUH[black capturing-02]
@@ -561,6 +624,7 @@ Saving 03
 
 :: ioBo6nkFsnvRstDKR8oRwk[black both-sides-atari]
 <%= GoGame.Character.yukari %>
+
 Bardzo dobrze, kiedy oboje jesteśmy w atari, powinieneś zbić pierwszy. Nie próbuj uciekać, bo zginiesz.
 
 
@@ -577,17 +641,23 @@ Samo atari to za mało żeby mnie złapać. Łatwo mi z niego uciec. Spróbuj cz
 
 
 :: wHmEtEVN1cE43mqwebWJFY[black atari-while-cutting]
-Tnij, żeby atakować.
+<%= GoGame.Character.yukari %>
+
+Dobrze - tnij, żeby atakować.
 
 
 :: fQsQZScy6m6wv5rQwy2Kch[black atari-to-endline]
 <%= GoGame.Character.yukari %>
 
-Przyparłeś mnie do muru? Jak śmiesz używać moich zaklęć przeciwko mnie? Udało ci się zepchnąć mnie do krawędzi.
+<% if(window.story.passage('dFzS2QPF4riiDHM6MLujo6').visited) { %>
+Przyparłeś mnie do muru? Jak śmiesz używać moich technik przeciwko mnie?
+<% } else { %>
+Udało ci się zepchnąć mnie na krawędź planszy - nieźle.
+<% } %>
 
 
 :: joeV4E7X1Eczi6NqkTw8uB[black atari-to-stones]
-Pchaj do swoich kamieni.
+Dobrze - pchaj przeciwnika do swoich kamieni.
 
 
 :: piEmpUA1hRThoQ9fyAotH1[black avoid-double-atari]
@@ -599,25 +669,43 @@ Pchaj do swoich kamieni.
 :: qXHoaCyZnD9Xagztmp8LeR[black double-atari]
 <%= GoGame.Character.yukari %>
 
+<% if(window.story.passage('g5QiEbZewWCQiUXf1MPs6v').visited) { %>
+Podwójne atari? Stosujesz moje sztuczki przeciwko mnie? Jestem z ciebie taka dumna!
+<% } else { %>
 Udało ci się wykonać podwójne atari? Nieźle.
+<% } %>
 
 
 :: gNn38eethP4KSnH2FivaYB[black failed-ladder]
 <%= GoGame.Character.yukari %>
 
-Niestety, drabinka to nie jest złoty środek. Czasem się nie udaje. Znasz historię o nowym młotku?
+<% if(window.dialogue.visited) { %>
+Mówiłam ci już - zanim zaczniesz robić drabinkę, sprawdź, czy nie ma w niej dziur.
+<% } else { %>
+Niestety, drabinka to nie jest złoty środek. Czasem się nie udaje.
+<% } %>
 
 
 :: eCPG2dCSbPbT5N5DyF7TTv[black broken-ladder]
 <%= GoGame.Character.yukari %>
 
-Twoja drabinka trafiła na kamień. Bywa. Zanim pójdziesz w drabinkę, sprawdź, czy nie ma czegoś na jej drodze.
+<% if(window.dialogue.visited) { %>
+Ty to chyba lubisz! Powtarzam, nie rób drabinki, kiedy coś stoi jej na drodze.
+<% } else { %>
+Twoja drabinka trafiła na kamień. Bywa. Zanim pójdziesz w drabinkę, sprawdź, czy nie ma czegoś na jej drodze co może ją zepsuć.
+<% } %>
 
 
 :: rzPbYaqoEMeMqT7Kyi6jEQ[black ladder]
 <%= GoGame.Character.yukari %>
 
-Wiesz jak zrobić drabinkę? Umiesz drabinkę? Zaimponowałeś mi! Wiesz jak zaimponować kobiecie.
+<% if(window.dialogue.visited) { %>
+Drabinkę już sobie przećwiczyłeś. Nie licz, że dostaniesz za to jakieś dodatkowe punkty. Następnym razem spróbuj czegoś innego.
+<% } else if(window.story.passage('8DkfLDG73b1cenKjmuerim')) { %>
+Czyli czegoś jednak się nauczyłeś obserwując moją grę. Jestem pod wrażeniem, ale następnym razem nie dam się nabrać na tą samą sztuczkę, nie licz na to.
+<% } else { %>
+Sam wykombinowałeś jak zrobić drabinkę? Wiesz jak zaimponować kobiecie.
+<% } %>
 
 
 :: 21epsCj3vVvKYMuWPi9ikb[black failed-net]
@@ -635,16 +723,124 @@ Udało ci się wykonać siatkę? Nieźle.
 :: 2bGdcMMEtcgDmJZ8WgdwQw[black net-over-ladder]
 <%= GoGame.Character.yukari %>
 
-Siatka ponad drabinką. Kiedy na drodze twojej drabinki stoi łamacz drabinek, to czasem lepiej użyć siatki. Zwykle jest bardziej niezawodna.
+Siatka zamiast drabinki? Dobrze to wykombinowałeś. Kiedy na drodze twojej drabinki stoi przeszkoda - lepiej użyć siatki.
 
 
 :: 2DZEMFSgMe8iiFfuA7kVBp[black ladder-over-net]
 <%= GoGame.Character.yukari %>
 
-Drabinka ponad siatką. Czasem jednak lepiej użyć drabinki.
+<% if(window.story.passage('2bGdcMMEtcgDmJZ8WgdwQw')) { %>
+Czasem jednak lepiej użyć drabinki niż siatki. Zwłaszcza jeśli siatka jest dziurawa.
+<% } else { %>
+Dobra intuicja, w takim wypadku użycie siatki skończyło by się dla ciebie przegraną.
+<% } %>
 
 
 :: mDDuYJmfa1ca8Zo9PxnUMN[black oiotoshi]
 <%= GoGame.Character.yukari %>
 
-Skopiowałeś moje Oiotoshi?! Jak śmiesz używać moich zaklęć przeciwko mnie!
+<% if(window.story.passage('2AvLLTr8dHXNeh6WAhr68Z')) { %>
+Skopiowałeś moje Oiotoshi?! Jestem pod wrażeniem.
+<% } else { %>
+Sam wykombinowałeś jak używać oiotoshi, czy samo tak wyszło?
+<% } %>
+
+
+:: 9P9v8AJHrnZszyPY3Vr731
+<%= GoGame.Character.igor %>
+
+Wreszcie się udało!
+[[dVTrFxM826M2Aay8W1eAda]]
+
+
+:: dVTrFxM826M2Aay8W1eAda
+<%= GoGame.Character.yukari %>
+
+師匠の初負け
+[[hRqsPCoidL9LMB229yMXSX]]
+
+
+:: hRqsPCoidL9LMB229yMXSX
+<%= GoGame.Character.igor %>
+
+Co to za krzaczki? Czy pani mnie obraża?
+[[eUMDgRrGpNkwqDzk6zEk9o]]
+
+
+:: eUMDgRrGpNkwqDzk6zEk9o
+<%= GoGame.Character.yukari %>
+
+Dobry nauczyciel zawsze przegrywa pierwszy mecz - żeby nie stracić nowego klienta.
+[[sPGfufY4tpo24BdgSrSvZd]]
+
+
+:: sPGfufY4tpo24BdgSrSvZd
+Czy to znaczy, że się podłożyła?
+[[qDYtyjk1vuqjiRhsQiSHFV]]
+
+
+:: qDYtyjk1vuqjiRhsQiSHFV
+<%= GoGame.Character.yukari %>
+
+Dobra, to teraz gramy na poważnie!
+
+
+:: a55m6cCad8Tg62GBCq3ETW
+<%= GoGame.Character.igor %>
+
+Mam już dość! Ciągle tylko przegrywam...
+[[e1jhGqb2kNp6oPTuHe1dCB]]
+
+
+:: e1jhGqb2kNp6oPTuHe1dCB
+<%= GoGame.Character.igor %>
+
+Nie uczy mnie pani jak grać... tylko jak dostawać łomot!
+[[ozVwvrcTZGpB2DjCw4adYr]]
+
+
+:: ozVwvrcTZGpB2DjCw4adYr
+Ta kobieta jest totalnie OP. Podejrzewam, że to nawet nie jest jej ostateczna forma.
+[[1YrB1jTwhXxU1znXaAACnd]]
+
+
+:: 1YrB1jTwhXxU1znXaAACnd
+<%= GoGame.Character.yukari %>
+
+Dopiero po przyjęciu dziesięciu ciosów uda ci się zobaczyć pięść.
+[[c9SB6Lsgj8CSBKS6bWq5bU]]
+
+
+:: c9SB6Lsgj8CSBKS6bWq5bU
+<%= GoGame.Character.igor %>
+
+S-słucham?
+[[u4z11c6dyFg663V195HVSN]]
+
+
+:: u4z11c6dyFg663V195HVSN
+<%= GoGame.Character.yukari %>
+
+Dopiero po dwudziestym ciosie, uda Ci się ją zablokować.
+[[6Tprb3sitn5by9UhUqH7AC]]
+
+
+:: 6Tprb3sitn5by9UhUqH7AC
+<%= GoGame.Character.igor %>
+
+Co to wogóle znaczy?
+[[5JMmbh93Xcr4c5NQvTVsa7]]
+
+
+:: 5JMmbh93Xcr4c5NQvTVsa7
+<%= GoGame.Character.yukari %>
+
+Przegraj kilkadziesiąt pierwszych meczy jak najszybciej, aż zacznie Ci wychodzić.
+[[9PLxrkZu4ePj1p9ZufTScV]]
+
+
+:: 9PLxrkZu4ePj1p9ZufTScV
+<%= GoGame.Character.igor %>
+
+Tak zrobię, Pani Miyagi.
+[[oV3AJ1tBr4kzqn7rMLGFre]]
